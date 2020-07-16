@@ -1,0 +1,294 @@
+---
+tag: bulk
+id: 2340
+title: 'Hyperfocus: How to Work Less to Achieve More'
+date: 2018-12-13T04:02:49+00:00
+lang: en
+guid: http://laurentmaumet.com/?p=2340
+permalink: /hyperfocus/
+categories:
+  - Books
+---
+<span class="rt-reading-time" style="display: block;"><span class="rt-label rt-prefix">Reading Time: </span> <span class="rt-time">6</span> <span class="rt-label rt-postfix">minutes</span></span> 
+
+<pre class="wp-block-preformatted">This post is part of <a href="http://laurentmaumet.com/books">a series</a> of posts about book I've read. My objective in these posts is not to do a complete summary of the book, but more to give you an idea of the content and why you should read it. They are also memos I use to remind myself what I've read.</pre>
+
+<div class="wp-block-image">
+  <figure class="aligncenter"><img src="https://www.dropbox.com/s/qlxstbn2z9cgo68/rsz_hyperfocus.png?dl=1" alt="" /></figure>
+</div>
+
+Hyper Focus &#8211; How to Work Less and Achieve More.
+
+Author : [Chris Bailey.](https://twitter.com/Chris_Bailey)
+
+## Summary
+
+One more book about personal organization and productivity. 
+
+What makes it particular is that it addresses a key topic which is &#8220;focus<g class="gr_ gr\_32 gr-alert gr\_gramm gr\_inline\_cards gr\_run\_anim Style multiReplace" id="32" data-gr-id="32">&#8221; :</g> how to deal with interruptions and distractions we are subject to in order to be more porductive.
+
+Did you ever found yourself ineffective because you spent a bunch of hours without completing any task but switching between <g class="gr_ gr\_58 gr-alert gr\_gramm gr\_inline\_cards gr\_run\_anim Grammar only-ins replaceWithoutSep" id="58" data-gr-id="58">few</g> of them ?&nbsp; or reading websites ? or playing a game on your phone? 
+
+This book is for you It gives a clear view about possible root causes and proposes an action plan to correct it.
+
+I&#8217;m a big fan of [Zen Habits](http://laurentmaumet.com/category/ztd/) by Leo Babauta as it helped me to reshape my [personal organization](http://laurentmaumet.com/work/) years ago and I found this book is a very good complement, with similar ideas but a different perspective.
+
+It is at the same time quite high level with concepts, theory but also very practical with <g class="gr_ gr\_12 gr-alert gr\_spell gr\_inline\_cards gr\_run\_anim ContextualSpelling ins-del multiReplace" id="12" data-gr-id="12">donw</g> to the earth ideas to implement.
+
+First concept is &#8220;hyper focus&#8221; : how do you put yourself in condition to really focus on what you are doing. In order to do so, you have to &#8220;manage&#8221; the distractions.
+
+Distractions are divided in 4 categories : 
+
+  1. no control / annoying : office visitiors, loud colleagues, meetings
+  2. no control / fun : team lunches, call from loved ones, watercooler conversations
+  3. control / annoying : email, phone alerts, meetings
+  4. control / fun : new websites, social media, instant messaging accounts
+
+2 types of focus
+
+  1. &#8220;hyper focus &#8220;where you cut all distractions (by puting your phone on plane mode, &#8230;)
+  2. &#8220;regular&#8221; where you cut some but not all distractions
+
+Main idea about hyperfocus is : 
+
+  1. choose a productive or meaningful object of attention; 
+  2. eliminate as many external and internal distractions as you can; 
+  3. focus on that chosen object of attention
+  4. continually draw your focus back to that one object of attention.
+
+The second concept (and it was a surprise to me) is &#8220;scatter focus&#8221;.
+
+Scatter focus is about conscientiously letting your mind wandering. The point the author makes is that focusing is very important, but you also need times where you let your mind go.
+
+A big part of the book is about this &#8220;scatter focus&#8221; concept.
+
+I especially like the &#8220;Scatter focus capture&#8221; which is about spending 5 to 10 minutes, 1 or 2 times per week to let your mind go and take note about all the open loops you have in mind.
+
+
+
+## My notes
+
+<blockquote class="wp-block-quote">
+  <p>
+    As many as 40 percent of our actions are habits, which shouldn’t require conscious deliberation.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Directing your attention toward the most important object of your choosing—and then sustaining that attention—is the most consequential decision we will make throughout the day. We are what we pay attention to.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    There are two main criteria to consider when categorizing what to focus on: whether a task is productive (you accomplish a lot by doing it) and whether a task is attractive (fun to do) or unattractive (boring, frustrating, difficult, etc.).
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    But how many of these eleven million bits can our minds consciously process and focus on at once? Just forty of them. Not forty million or forty thousand, but forty.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Our lives are generally structured around the fact that we’re able to hold, at most, seven pieces of unique information in our short-term memory.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    At any one time, your attentional space should hold at most two key things that you are processing: what you intend to accomplish and what you’re currently doing.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    But it’s important to make a distinction between shifting our attention and multitasking.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    1.&nbsp;&nbsp;&nbsp;How much of your time you spend intentionally 2.&nbsp;&nbsp;&nbsp;How long you can hold your focus in one sitting 3.&nbsp;&nbsp;&nbsp;How long your mind wanders before you catch it
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    You enter this mode by managing your attention deliberately and purposefully: by choosing one important object of attention, eliminating distractions that will inevitably arise as you work, and then focusing on just that one task.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Hyperfocus is many things at once: it’s deliberate, undistracted, and quick to refocus, and it leads us to become completely immersed in our work. It also makes us immensely happy.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    When it comes to your most important tasks, the fewer things you pay attention to, the more productive you become.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    You enter into hyperfocus when you engage both your thoughts and your external environment and direct them at one thing intentionally.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    To hyperfocus, you must 1.&nbsp;&nbsp;&nbsp;choose a productive or meaningful object of attention; 2.&nbsp;&nbsp;&nbsp;eliminate as many external and internal distractions as you can; 3.&nbsp;&nbsp;&nbsp;focus on that chosen object of attention; and 4.&nbsp;&nbsp;&nbsp;continually draw your focus back to that one object of attention.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    The concept of hyperfocus can be summed up in a single tranquil sentence: keep one important, complex object of attention in your awareness as you work.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Rule of 3: at the start of each day, choose the three things you want to have accomplished by day’s end.
+  </p>
+  
+  <cite>This is similar to MIT concepts of Zen Habits.</cite>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Once you become aware of how frequently you interrupt yourself, it’s hard to go back to working the same way again. This is why it is critical to manage your attentional space wisely. You can focus for so much longer by taming distractions ahead of time.
+  </p>
+</blockquote>
+
+
+
+<blockquote class="wp-block-quote">
+  <p>
+    Environmental cues don’t actively interrupt us, like notifications, but they can do just as much harm to our productivity and personal life.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    There is a wealth of research that examines why our mind wanders at the exact time we’re trying to focus. It does so significantly more when •&nbsp;&nbsp;&nbsp;we’re feeling stressed or bored; •&nbsp;&nbsp;&nbsp;we’re working in a chaotic environment; •&nbsp;&nbsp;&nbsp;we’re dealing with and thinking about a number of personal concerns; •&nbsp;&nbsp;&nbsp;we’re questioning whether we’re working on the most productive or meaningful task; or •&nbsp;&nbsp;&nbsp;we have unused attentional space—the more we have, the more prone we are to mind-wandering episodes.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    If you find it difficult to become immersed in your work throughout the day, it’s worth questioning whether your tasks are difficult and complex enough.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    On the opposite end of the spectrum, if you find you’re anxious at work even after taming distractions and working with more intention, consider whether your current skills are a good match for the tasks at hand.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    There is, however, one practice that has been proven in study after study to increase working memory capacity: meditation.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Practicing mindfulness is another proven way to increase the size of your attentional space.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Begin to practice mindfulness by choosing one daily task that doesn’t consume your complete attention—sipping your morning coffee, walking through your office, or taking a shower
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    The research is clear: mindfulness and meditation improve virtually every aspect of how you manage your attention.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    One area I’ve noticed that particularly benefits from hyperfocus is conversations. The secret to deep, meaningful conversations is simple: bring your complete attention to the person you’re speaking with.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Continually scanning for threats is what compels us to dwell on that one negative email or overthink a careless offhand comment from our boss. What once aided our chances at survival now sabotages our productivity and creativity in the modern world.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    When your mind wanders, it visits three main places: the past, the present, and the future. This is precisely why scattering your attention allows your creativity to flourish as you travel through time and connect what you’ve learned to what you’re doing or what you want to achieve.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    I draw the line between mind wandering and scatterfocus. Scatterfocus is always intentional.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    I’ve found it helpful to distinguish among a few different styles of scatterfocus: 1.&nbsp;&nbsp;&nbsp;Capture mode: Letting your mind roam freely and capturing whatever comes up. 2.&nbsp;&nbsp;&nbsp;Problem-crunching mode: Holding a problem loosely in mind and letting your thoughts wander around it. 3.&nbsp;&nbsp;&nbsp;Habitual mode: Engaging in a simple task and capturing the valuable ideas and plans that rise to the surface while doing it. Research has found this mode is the most powerful.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    This chapter is one of the shortest in the book, because the main idea is simple: scatterfocus mode helps us to recharge our ability to hyperfocus, in addition to letting us plan for the future and become more creative.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Useful information is typically the densest of the three categories. Books are a good illustration: while a book can sometimes take less than ten hours to read, it can take decades to write and may contain a lifetime of lessons that the author has learned and summarized. Books provide access to the highest-quality thinking and most useful dots on pretty much any topic.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    The Zeigarnik effect makes us want to finish what we start, but every minute we spend on something useless is a minute we lose working on something useful.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Invest in serendipity. Consume challenging things outside the boundaries of your expertise,
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Set your browser’s homepage to open with Wikipedia’s “random article” bookmark. Look through the AMA (Ask Me Anything) section on Reddit, where world-renowned experts answer popular questions from everyday people.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    Open offices do have their benefits. One is that they support working for longer on a single project before switching to another. The reason for this is interesting: while our colleagues interrupt us more in an open environment, they’re also more considerate about when they do.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    If you’re a manager, consider the type of work your team does before you plan for an open office. If you do decide this design is worth the potential productivity costs, be sure to educate your employees on how to manage interruptions.
+  </p>
+</blockquote>
+
+<blockquote class="wp-block-quote">
+  <p>
+    One of the best strategies to train your brain to become more aware is the hourly awareness chime.
+  </p>
