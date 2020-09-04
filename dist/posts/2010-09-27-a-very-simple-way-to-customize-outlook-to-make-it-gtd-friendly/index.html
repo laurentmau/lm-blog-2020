@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>A very simple way to customize outlook to make it GTD friendly !</title>
+    <meta name="Description" content="Welcome, Smile, Life is good">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Laurent Maumet">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Laurent Maumet</a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/about/">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+      
+
+      
+<div class="container">
+
+    <div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-md-10">
+
+<h1>A very simple way to customize outlook to make it GTD friendly !</h1>
+<!-- Author -->
+        <p class="lead">
+          by
+          
+        </p>
+
+        <hr>
+
+        <!-- Date/Time -->
+        <p>Posted on January 1, 2019 at 12:00 PM</p>
+
+        <hr>
+
+<p>Since 1 year now I use <a href="http://en.wikipedia.org/wiki/Getting_Things_Done">GTD</a> principles to manage my emails and achieve the ultimate goal :** inbox 0**.</p>
+<p>I've described this <a href="http://laurentmaumet.com/english/my-method-to-keep-my-inbox-empty/">in a previous post </a>.<br>
+The idea is quite simple, based on 5 folders :</p>
+<p><a href="http://2.bp.blogspot.com/_qPEVGvgxgu4/S0j3jJz3BsI/AAAAAAAAGUk/s9J9BKmHz8c/s1600/folders.GIF"><img src="http://2.bp.blogspot.com/_qPEVGvgxgu4/S0j3jJz3BsI/AAAAAAAAGUk/s9J9BKmHz8c/s1600/folders.GIF" alt=""><br>
+</a></p>
+<p><strong>0 - Inbox</strong>: where all emails come when I receive them<br>
+<strong>1 - Action</strong>: email for which an action from me is needed<br>
+<strong>1 - Read / Review</strong>: emails that with stuff I need to read / review&lt;<br>
+**2 - Waiting for **: emails for which I'm waiting an action from someone else<br>
+<strong>3 - Done</strong>: emails processed, keeped for archive.</p>
+<p>For more detail on how I use these folders, you can refer to the<a href="http://laurentmaumet.com/english/my-method-to-keep-my-inbox-empty/"> initial post.</a></p>
+<p>The most important thing is to be able to empty the inbox and file emails in the proper folder in a very efficient way, as fast as possible.<br>
+To make it really very easy for me I've done some customisations of my outlook client to implement 4 customs buttons.</p>
+<p><a href="http://rookery9.aviary.com.s3.amazonaws.com/5141500/5141916_2d79_625x625.jpg"><img src="http://rookery9.aviary.com.s3.amazonaws.com/5141500/5141916_2d79_625x625.jpg" alt=""><br>
+</a></p>
+<p>When I open an email, the 4 buttons are accessible.</p>
+<p>Their function is very simple :</p>
+<pre><code>  * &quot;Done&quot; files the mail in the &quot;3- Done&quot; folder
+  * &quot;Action&quot; files the email in the &quot;1-Action folder&quot;
+  * &quot;Read&quot; files the email in the &quot;1- Read / Review folder&quot;
+  * &quot;Waiting for&quot; files the email in the &quot;2- Waiting for email&quot;
+</code></pre>
+<p>Here's a quick guide to implement these buttons in your outlook.</p>
+<p>First, you need to create 4 macros : MoveDone(), MoveAction(), MoveRead(), MoveWaitingFor().<br>
+Here's the source code template. Just use it 4 times, replacing the name and the macro and the name of the folder.</p>
+<p><a href="http://rookery9.aviary.com.s3.amazonaws.com/5142000/5142205_a53f_625x625.jpg"><img src="http://rookery9.aviary.com.s3.amazonaws.com/5142000/5142205_a53f_625x625.jpg" alt=""><br>
+</a></p>
+<p><a href="http://1.bp.blogspot.com/_qPEVGvgxgu4/TKClz6dlIeI/AAAAAAAAG8I/-sx_sDwQCFc/s1600/ScreenHunter_09+Sep.+27+16.10.gif"><img src="http://1.bp.blogspot.com/_qPEVGvgxgu4/TKClz6dlIeI/AAAAAAAAG8I/-sx_sDwQCFc/s320/ScreenHunter_09+Sep.+27+16.10.gif" alt=""><br>
+</a>To finish, you need to add the button, this is very easy :</p>
+<pre><code>  * Just open an existing email
+  * Right click in the toolbar then &quot;Customize&quot;
+  * In the popup, chosse &quot;Macro&quot;. You should see the 4 macros you have created.
+  * Then drag and drop macro 1 by 1 from the pop up to the email tool bar.
+  * Here're the 4 buttons !
+</code></pre>
+<p><a href="http://3.bp.blogspot.com/_qPEVGvgxgu4/TKCmSpJw26I/AAAAAAAAG8M/ymYUOMrpiqA/s1600/ScreenHunter_06+Sep.+27+15.18.gif"><img src="http://3.bp.blogspot.com/_qPEVGvgxgu4/TKCmSpJw26I/AAAAAAAAG8M/ymYUOMrpiqA/s320/ScreenHunter_06+Sep.+27+15.18.gif" alt=""><br>
+</a></p>
+<p>Now, just go to your full inbox, open the first email, and start to clean !</p>
+<p><a href="http://www.zemanta.com/"><img src="http://img.zemanta.com/zemified_a.png?x-id=bae6f627-9670-423e-9287-9e0563b24ba8" alt="Enhanced by Zemanta"><br>
+</a></p>
+
+
+</div>
+</div>
+<p><a href="/">← Home</a></p>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /posts/2010-09-27-a-very-simple-way-to-customize-outlook-to-make-it-gtd-friendly/ -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

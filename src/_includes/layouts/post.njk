@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+
+<div class="container">
+
+    <div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-md-10">
+
+<h1>{{ title }}</h1>
+<!-- Author -->
+        <p class="lead">
+          by
+          {{ author}}
+        </p>
+
+        <hr>
+
+        <!-- Date/Time -->
+        <p>Posted on January 1, 2019 at 12:00 PM</p>
+
+        <hr>
+
+{{ content | safe }}
+
+</div>
+</div>
+<p><a href="{{ '/' | url }}">← Home</a></p>

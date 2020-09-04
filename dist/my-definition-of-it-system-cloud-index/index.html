@@ -1,0 +1,16 @@
+<p><span class="rt-reading-time" style="display: block;"><span class="rt-label rt-prefix">Reading Time: </span> <span class="rt-time">&lt; 1</span> <span class="rt-label rt-postfix">minute</span></span>The objective of the “cloud index” is to monitor the cloud level of an IT system in order to monitor and to communicate in a simple way to the level of cloud reached.</p>
+<p>Here’s the definition I use.</p>
+<p>The IT system is defined as a sum of <a href="http://en.wikipedia.org/wiki/Business_service_management">Business Services</a> (i.e. applications, see ITIL definition).</p>
+<p>Each business service is characterized by a “feature_size”.</p>
+<p>The “feature_size” express the complexity of the application (kind of  “<a href="http://en.wikipedia.org/wiki/Function_point">function point</a>” approach).</p>
+<p>For each business service, we express it’s “cloud_level” on a scale from 0 to 100 :</p>
+<ul>
+<li>**** ** ** : the business service is hosted on dedicated servers on premise</li>
+<li><strong>10</strong> : the business service is hosted on shared servers (via virtualization for example) on servers on premise.</li>
+<li><strong>20</strong> : the business service is hosted on an external datacenter</li>
+<li><strong>50</strong> : the business service is hosted on a IaaS platform</li>
+<li><strong>60</strong> : the business service is on a PaaS platform</li>
+<li><strong>100</strong> : the business service is supported by a full Saas Solution.</li>
+</ul>
+<p>Based on this, the cloud index is defined as the weighted average of the business services “cloud_level” weighted by the “feature_size”.</p>
+<p> </p>

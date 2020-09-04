@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Numérique et vie privée, beaucoup de batailles perdues, mais si on gagnait la guerre ?</title>
+    <meta name="Description" content="Welcome, Smile, Life is good">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Laurent Maumet">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Laurent Maumet</a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/about/">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+      <div class="warning">
+        <ol>
+          <li>Edit the <code>_data/metadata.json</code> with your blog’s information.</li>
+          <li>(Optional) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
+          <li>Delete this message from <code>_includes/layouts/base.njk</code>.</li>
+        </ol>
+        <p><em>This is an <a href="https://www.11ty.io/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
+      </div>
+
+      
+<div class="container">
+
+    <div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-lg-8">
+
+<h1>Numérique et vie privée, beaucoup de batailles perdues, mais si on gagnait la guerre ?</h1>
+<!-- Author -->
+        <p class="lead">
+          by
+          <a href="#">Start Bootstrap</a>
+        </p>
+
+        <hr>
+
+        <!-- Date/Time -->
+        <p>Posted on January 1, 2019 at 12:00 PM</p>
+
+        <hr>
+
+<p><span class="rt-reading-time" style="display: block;"><span class="rt-label rt-prefix">Reading Time: </span> <span class="rt-time">2</span> <span class="rt-label rt-postfix">minutes</span></span></p>
+<h5 id="le-ministre-de-l%E2%80%99int%C3%A9rieur-se-base-sur-des-analyses-faites-par-google-pour-analyser-le-comportement-des-fran%C3%A7ais-lors-du-d%C3%A9clenchement-du-confinement-alors-que-l'%C3%A9tat-s'interdit-lui-m%C3%AAme-de-faire-de-telles-analyses.">Le Ministre de l’intérieur se base sur des analyses faites par Google pour analyser le comportement des Français lors du déclenchement du confinement alors que l'état s'interdit lui-même de faire de telles analyses. <a class="direct-link" href="#le-ministre-de-l%E2%80%99int%C3%A9rieur-se-base-sur-des-analyses-faites-par-google-pour-analyser-le-comportement-des-fran%C3%A7ais-lors-du-d%C3%A9clenchement-du-confinement-alors-que-l'%C3%A9tat-s'interdit-lui-m%C3%AAme-de-faire-de-telles-analyses.">#</a></h5>
+<p>Mardi 6 avril 2020, Christophe Castaner Ministre de l’intérieur est interrogé sur <a href="https://www.francetvinfo.fr/sante/maladie/coronavirus/confinement-conservation-des-donnees-propos-polemiques-de-didier-lallement-le-8h30-franceinfo-de-christophe-castaner_3880345.html">France Info</a></p>
+<blockquote>
+<p>Journaliste : Est-ce que vous pourriez envisager de demander aux opérateurs téléphoniques de vous fournir certaines données ?</p>
+<p>C. Castaner : Si la loi l'autorisait, oui, mais la loi ne l'autorise pas et nous n'en n'avons pas besoin. On a regardé les données en flux et en volume par exemple pour les consommations d'électricité ou les consommation de téléphone pour voir les mouvements de population. Tout à l'heure je faisait référence à la qualité du sérieux des français quand ils respectent le confinement, je m&amp;'appuyais sur des données qui ont été diffusées par le site de recherche Google qui a regardé en masse et pas en individu les flux et les mouvements de manière globale.</p>
+<p>Journaliste : Et donc Google regarde ces données, et pas et vous ne le faites pas Christophe Castaner ?</p>
+<p>C. Castaner : Non nous ne le faisons pas car cela ne fait pas parti ni de notre culture ni des outils dont nous disposons mais de toute faon nous n'en n'avons pas besoin</p>
+</blockquote>
+<p>Dans cette échange de 20 secondes beaucoup est dit de la situation dans laquelle nous nous trouvons.</p>
+<p>Le ministre explique que l'état ne pratique pas d'analyse des données pour suivre la population car &quot;cela n'est pas notre culture&quot; et que  &quot;la loi ne l'autorise pas&quot; mais il donne des chiffres qu'il a pu lire comme n'importe quel citoyen sur le <a href="https://www.google.com/covid19/mobility/">site</a> que Google a mis en place quelques jours plus tôt.</p>
+<p>Pour réaliser les analyses présentées sur le site, Google utilise les données de géolocalisation collectées par la population en utilisant ses produits (soit parce-qu’ils ont un téléphone Android, soit car il utilisent un service comme  Gmail ou le moteur de recherche).</p>
+<h5 id="d'un-c%C3%B4t%C3%A9-l'%C3%A9tat-fran%C3%A7ais-ne-fait-pas-une-chose-(demander-des-donn%C3%A9es-aux-op%C3%A9rateurs-pour-les-analyser)-et-de-l'autre-google-le-fait-ouvertement-et-communique-les-r%C3%A9sultats.">D'un côté l'état Français ne fait pas une chose (demander des données aux opérateurs pour les analyser) et de l'autre Google le fait ouvertement et communique les résultats. <a class="direct-link" href="#d'un-c%C3%B4t%C3%A9-l'%C3%A9tat-fran%C3%A7ais-ne-fait-pas-une-chose-(demander-des-donn%C3%A9es-aux-op%C3%A9rateurs-pour-les-analyser)-et-de-l'autre-google-le-fait-ouvertement-et-communique-les-r%C3%A9sultats.">#</a></h5>
+<p>Depuis 2007 et l’arrivée du cloud et des smartphones, le mode a changé. Les acteurs du WEB et en particulier le GAFA se retrouvent en possession d’énormément de données de tous ordres sur l’ensemble de la population.</p>
+<p>Facebook a dans ses serveurs les activités, les émotions, les états d’âmes, les joies, les peines de 34 millions de Français. Google stocke l’ensemble de nos recherches, connait l’ensemble de nos rues, de nos adresses, de l’état du traffic en temps réel.</p>
+<p>Si cela est possible c’est parce-que le service rendu est à la hauteur et permet des choses impossible avant.</p>
+<p>On parle souvent des GAFAs, et je viens de le faire, mais en fait le sujet est bien plus général. Quand nous visitons des sites web les plus anodins, c’est une centaines d’entreprises qui seront au courant de ce que nous faisons. video Le bon coin</p>
+<p>Le sujet le plus critique concerne les données de géolocalisation. Pour des raisons de simplicité, une application météo vous demande d’accéder à votre localisation pour fournir la météo de votre ville automatiquement ou l’application de votre journal préféré veut également la connaitre pour vous proposer l’édition de votre ville. Vous dites oui. A partir de là, votre localisation est enregistrée en continu (s’est-on jamais, il faudrait penser à mettre la météo à jour) et surtout est stockée par des plateformes (qui ne sont pas les gafas). Ces plateformes peuvent ensuite revendre ces données. Comme on a essayé de mettre quelques gardefous, ces données sont “Anonymisée”, le nom de la personne n’y est pas. Le problème est que à partir de données de localisation il est très facile de remonter à l’identité de la personne.</p>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODY0OTEyMzI3XX0=
+-->
+
+
+</div>
+</div>
+<p><a href="/">← Home</a></p>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /fr/prive-num -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
