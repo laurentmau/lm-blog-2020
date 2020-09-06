@@ -5,13 +5,37 @@ eleventyNavigation:
   order: 1
 ---
 
-<h1>Latest 3 Posts</h1>
+<div class="container  pt-5" style="height:40vh !important; min-height:400px !important ">
+  <div class="row align-items-center justify-content-center">
 
- {% set postslist = collections.posts | head(-3) %}
+    <div class="col">
+      Welcome to my blog.
+    </div>
+  </div>
+</div>
+{% set postslist = collections.posts | head(-10) %}
 {% set postslistCounter = collections.posts | length %}
+{% for post in postslist | reverse %}
+  <div class="post-content">
+    <hr>
+    <h1>{{ post.data.title }}</h1>
+    <p class="lead">
+      by
+      {{ post.data.author}}
+      <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    </p>
+
+    <p>
+      {{ post.templateContent | safe }}
+
+    </p>
+  </div>
+{% endfor %}
+
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<p>More posts can be found in
+  <a href="{{ '/posts/' | url }}">the archive</a>.</p>
 
 {#
 <div class="bd-example">

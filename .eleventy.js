@@ -5,6 +5,11 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const path = require("path");
+
+
+const manifestPath = path.resolve(__dirname, "dist", "scripts", "manifest.json");
+const manifest = JSON.parse(fs.readFileSync(manifestPath, { encoding: "utf8" }))
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -52,16 +57,16 @@ module.exports = function (eleventyConfig) {
   });
 
   /* Markdown Overrides */
-  let markdownLibrary = markdownIt({
-    html: true,
-    breaks: true,
-    linkify: true
-  }).use(markdownItAnchor, {
-    permalink: true,
-    permalinkClass: "direct-link",
-    permalinkSymbol: "#"
-  });
-  eleventyConfig.setLibrary("md", markdownLibrary);
+  /*   let markdownLibrary = markdownIt({
+      html: true,
+      breaks: true,
+      linkify: true
+    }).use(markdownItAnchor, {
+      permalink: true,
+      permalinkClass: "direct-link",
+      permalinkSymbol: "#"
+    });
+    eleventyConfig.setLibrary("md", markdownLibrary); */
 
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({

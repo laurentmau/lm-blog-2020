@@ -2,68 +2,785 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Laurent Maumet</title>
     <meta name="Description" content="Welcome, Smile, Life is good">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
 
-    <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Laurent Maumet">
+    <link href="/scripts/main.c945da42a80025dc5603.css" rel="stylesheet" />
+
   </head>
   <body>
-    <header>
-      <h1 class="home"><a href="/">Laurent Maumet</a></h1>
-      <ul class="nav">
-        <li class="nav-item nav-item-active"><a href="/">Home</a></li>
-        <li class="nav-item"><a href="/posts/">Archive</a></li>
-        <li class="nav-item"><a href="/about/">About Me</a></li>
-      </ul>
-    </header>
 
-    <main class="tmpl-home">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Laurent Maumet</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item nav-item-active">
+                <a class="nav-link" href="/">Home
+                  
+                    <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/posts/">Archive
+                  
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/newhome/">newHome
+                  
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about/">About Me
+                  
+                </a>
+              </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <main class="tmpl-home" >
       
 
+      <div class="container">
+
+        <div class="row mt-4">
+
+          <div class="col-md-10">
+
+            
+
+<div class="container  pt-5" style="height:40vh !important; min-height:400px !important ">
+  <div class="row align-items-center justify-content-center">
+
+    <div class="col">
+      Welcome to my blog.
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="post-content">
+    <hr>
+    <h1>Quelles technologies pour sortir de la crise COVID-19</h1>
+    <p class="lead">
+      by
+      Laurent
+      <time class="postlist-date" datetime="2019-10-11">11 Oct 2019</time>
+    </p>
+
+    <p>
+      <h3>La sortie de crise de la pandémie de COVID-19 nécessitera l'utilisation d’outil numériques de suivi de la population.</h3>
+<p>En l'absence de vaccin et de traitement disponibles, combattre l’épidémie de COVID-19 passe une identification et une mise en quarantaine des personnes atteintes.</p>
+<p>Le confinement total actuellement en vigueur en France permet d'atteindre cet objectif (puisque l’ensemble de la population est en quarantaine) mais a un impact très important sur la vie des personnes et l’économie.</p>
+<p>Sortir du confinement global suppose une capacité d'identifier les nouveaux cas et de prendre des mesures d'isolement pour eux et les personnes rencontrées.</p>
+<p>Cette figure présente la stratégie à adopter lorsqu'un nouveau cas de COVID-19 est identifié.</p>
+<p><img src="/public/cIdmEQi9Y7eGDfCStk22zw_img_0.png" alt="image alt text"><a href="https://www.zotero.org/google-docs/?lUqCzu">[1]</a></p>
+<p>Note : détecter les porteurs de la maladie suppose être en mesure de réaliser des tests à grande échelle. Ce document ne traite pas de ce document.</p>
+<p>En modélisant l'épidémie et en particulier le R0 important et le fait que la maladie peut se transmettre avant l’apparition des symptômes voire même par des personnes qui n’auraient pas de symptôme on arrive à la conclusion que pour que ce confinement ciblé soit efficace et endiguer l’épidémie il faut être capable de réagir très rapidement en moins de 2 jours lorsqu’un nouveau cas est détecté pour procéder aux mesures de confinement et de  désinfection.</p>
+<p><img src="/public/cIdmEQi9Y7eGDfCStk22zw_img_1.png" alt="image alt text"><a href="https://www.zotero.org/google-docs/?C3nU2C">[1]</a></p>
+<p>Pour que cela soit possible, il est indispensable de mettre en oeuvre des outils numériques qui eux seuls vont permettre d'identifier les personnes et les lieux à  risque et de prendre les mesures dans le délais imparti.</p>
+<h3>Le smartphone et la technologie de &quot;bluetooth ouvert&quot; seront mis en oeuvre.</h3>
+<p>Pour appliquer la stratégie décrite plus haut, il faut être en mesure de lister les personnes qui ont été en contact avec le cas porteur, à moins de 1 mètre, pendant plus de 15 minutes.</p>
+<p>Le GPS qui équipe l'ensemble des smartphones  présente des limites importantes : il ne fonctionne pas en intérieur et sa précision en milieu urbain et en cas de déplacement est assez faible (plusieurs mètres). Du fait de ces limitations, les données recueillie par le GPS ne pourrons pas être utilisées seules.</p>
+<p>La technologie de &quot;bluetooth ouvert&quot; équipe également l'ensemble des smartphones, elle ne permet pas de localiser l’utilisateur sur une carte, mais permet de connaître l’ensemble des smartphones à proximité et donc enregistrer avec précision la distance et la durée de l'interaction. Cette donnée est celle nécessaire. Ce système est celui utilisé en Corée du sud.</p>
+<h3>Les risques sont grands car des données de localisation précises ne peuvent être anonymisées.</h3>
+<p>Mettre en oeuvre un système à l'échelle de la population qui enregistre la position de l’ensemble des positions des personnes et la stocke peut inquiéter sur des atteintes potentielles aux libertés fondamentales.</p>
+<p>Cette inquiétude est légitime car rendre anonyme des données détaillées de localisation croisées avec d'autre information peuvent être désanonymiser facilement.</p>
+<p><img src="/public/cIdmEQi9Y7eGDfCStk22zw_img_2.png" alt="image alt text"><a href="https://www.zotero.org/google-docs/?RpRzXM">[2]</a></p>
+<p>Des études ont même montré que avec seulement 4 points de localisation, on peut identifier la personne dans 95 % des cas . <a href="https://www.zotero.org/google-docs/?NJihb7">[3]</a></p>
+<h3>Le retard de la france dans la maîtrise de la donnée est un gros handicap.</h3>
+<p>En Chine, la mise en place depuis de nombreuse années de systèmes de surveillances de masse interconnectés entre eux a permis de rapidement déployer les systèmes. L'application qui permet d’attribuer à chaque individu une couleur en fonction de son niveau de risque (Vert / Orange / Rouge) a été mise en oeuvre par Alibaba Finance qui est est l’entreprise qui développe l’application qui attribue un score social à chaque personne.</p>
+<p>Aux états-unis, l'administration américaine a demandé à Google et Facebook qui disposent de nombreuses données et d’équipes de développeurs importantes de se pencher sur la question.</p>
+<p>En France, nous n'avons pas d’acteurs de ce type.</p>
+<h3>Des pistes pour la suite</h3>
+<h4>Préserver les libertés individuelles &quot;by design&quot;.</h4>
+<p>Pas de centralisation des données.</p>
+<p>Des équipes travaillent dessus Oxford, MIT, Allemagne. Il faut lancer une coopération Europeene sur le sujet.</p>
+<h4>Une stratégie globale (pas seulement cet outil)</h4>
+<h4>Basé sur le volontariat</h4>
+<h4>Une application qui soit utile aux personnes.</h4>
+<p><a href="https://www.zotero.org/google-docs/?1rDcct">[1]	L. Ferretti </a><em><a href="https://www.zotero.org/google-docs/?1rDcct">et al*.</a><a href="https://www.zotero.org/google-docs/?1rDcct">, « Quantifying SARS-CoV-2 transmission suggests epidemic control with digital contact tracing », </a></em><a href="https://www.zotero.org/google-docs/?1rDcct">Scienc*e</a><a href="https://www.zotero.org/google-docs/?1rDcct">, mars 2020, doi: 10.1126/science.abb6936.</a></p>
+<p><a href="https://www.zotero.org/google-docs/?1rDcct">[2]	« When Is Anonymous Not Really Anonymous? – The Markup ». https://themarkup.org/ask-the-markup/2020/03/24/when-is-anonymous-not-really-anonymous (consulté le avr. 01, 2020).</a></p>
+<p><a href="https://www.zotero.org/google-docs/?1rDcct">[3]	Y.-A. de Montjoye, C. A. Hidalgo, M. Verleysen, et V. D. Blondel, « Unique in the Crowd: The privacy bounds of human mobility », </a>*<a href="https://www.zotero.org/google-docs/?1rDcct">Sci. Rep*.</a><a href="https://www.zotero.org/google-docs/?1rDcct">, vol. 3, p. 1376, 2013, doi: 10.1038/srep01376.</a></p>
+
+
+    </p>
+  </div>
+
+  <div class="post-content">
+    <hr>
+    <h1>The end of Chapter 2</h1>
+    <p class="lead">
+      by
       
-<h1>Latest 3 Posts</h1>
+      <time class="postlist-date" datetime="2019-10-11">11 Oct 2019</time>
+    </p>
 
- 
+    <p>
+      <p>I'm closing Chapter 2 of my professional life as I'm leaving Soitec.<br>
+This is a big moment for me as this Chapter 2 lasted 13 years.</p>
+<p>Before talking about Chapter 3, I want to pause and reflect briefly on what happened during these years with Soitec.</p>
+<p>To start I had the chance to be as head of IT part of the pioneer team to start a new factory in Singapore, been relocated there for 2 years with my family.</p>
+<p>This has been just the beginning of a global scope. Now I've ex-colleagues or partners that are sometimes friends in  France, Singapore, the US, Germany, Taiwan, Japan, South Africa.</p>
+<p>When I became CIO I've been the initiator and the leader of the company's digital transformation. Back in '10 I was convinced that Cloud, Mobility, and Social were reshaping the world and bringing them to business was strategic to create value.</p>
+<p>In '11, we launched our &quot;Cloud-first&quot; strategy to totally reshape the way we did IT  to improve agility, security, and costs thanks to cloud.</p>
+<p>This has been a very exciting journey, with key decisions like moving to Google Gmail/Gsuite, like relying on public AWS cloud to run some of our fab critical applications and also tons of experiments, trials, and errors to find the best solutions and to manage change.</p>
+<p>Conviction, resilience has been key during these years to consistently keep pace.<br>
+The results have been really very rewarding with tangible cost reductions, innovative systems to support business and an incredible 9.7/10 rate given constantly by the rest of the company to our performance.</p>
+<p>I'll keep in mind tons of memories with my incredible colleagues. Hard times with systems failure crisis, but most importantly a lot of fun, a lot of passion.</p>
+<p>During these 13 years, the business story of Soitec has been very dynamic, with high points and very difficult times.<br>
+I'm very proud to have been part of the team that took the leadership beginning of '15 at a very difficult period to turn around the business. This has been a huge opportunity for me to extend my scope outside IT, to Quality, Supply Chain, Procurement. I've learned a lot! This has been an incredible human story with all the company members. This is when I understood that this Digital Transformation is before all a question of culture, of women and men.</p>
+<p>While handing in my decision to leave was one of the hardest things I’ve ever done, the positivity that has poured out from my boss Paul and all the team has been amazing, and I'd like to thank them for that.</p>
+<p>I know the team is strong, I'm convinced my departure will be an opportunity for my colleagues to grow and I wish them all the best.</p>
+<p>Soon I will open Chapter 3. This will be a totally new Chapter as I want to launch my own business: Welibo.<br>
+I cannot tell more about it now, but for sure it will be around Digital.</p>
+<p>Stay tuned, have a nice day.</p>
+<p><img src="http://laurentmaumet.com/wp-content/uploads/2019/10/IMG_20190731_174215-300x225.jpg" alt="">
+End of the day, Sumba Indonesia (not too far from Welibo)</p>
 
-<ol reversed class="postlist" style="counter-reset: start-from 260">
 
-  <li class="postlist-item">
-    <a href="/posts/POST3/" class="postlist-link">POST3</a>
-    <time class="postlist-date" datetime="2019-11-15">15 Nov 2019</time>
-    
-  </li>
+    </p>
+  </div>
 
-  <li class="postlist-item">
-    <a href="/posts/POST2/" class="postlist-link">POST2</a>
-    <time class="postlist-date" datetime="2019-11-15">15 Nov 2019</time>
-    
-  </li>
+  <div class="post-content">
+    <hr>
+    <h1>Enjoy&#39;</h1>
+    <p class="lead">
+      by
+      
+      <time class="postlist-date" datetime="2019-01-08">08 Jan 2019</time>
+    </p>
 
-  <li class="postlist-item">
-    <a href="/posts/2020-03-31-Ce-que-la-technologie-peut-apporter-(ou-pas)-à-la-résolution-la-crise-de-COVID-19/" class="postlist-link">Quelles tehcnologies pour sortir de la crise COVID-19</a>
-    <time class="postlist-date" datetime="2019-10-11">11 Oct 2019</time>
-    
-  </li>
+    <p>
+      <p><img src="http://laurentmaumet.com/wp-content/uploads/2019/01/welcome-smile-768x1024.jpg" alt=""></p>
+<p>My word for 2019 will be &quot;Enjoy&quot;</p>
+<h4>I started with this &quot;word of the year&quot; idea 3 years ago.</h4>
+<p>This idea of replacing the traditional New Year’s resolutions by just 1 word is an idea I took from <a href="https://medium.com/@bcurdy/my-best-habit-the-word-of-the-year-db369dbc060d#.nxols5fsj">Benoit Curdy</a>.</p>
+<p>In 2016, my word of the year was &quot;<a href="http://laurentmaumet.com/focus/">Focus</a>&quot;, which, for me, functioned as a reminder to spend more time on fewer things, avoid multitasking, be more present.</p>
+<p>The next year I chose &quot;<a href="http://laurentmaumet.com/learn">Learn</a>&quot; and spent more time on learning new things  related to digital like coding, big data, machine learning but also  lern things related to  the personal organization, to geopolitics, to history.</p>
+<p>Finally, for 2018, I chose &quot;<a href="http://laurentmaumet.com/read/">Read</a>&quot; with a target of  24 books to be read during the year (I finished at <a href="https://www.goodreads.com/user_challenges/10834395">17</a>), doing some posts about the books (<a href="http://laurentmaumet.com/books/">I did it for 2</a>).</p>
+<h4>For this year, my word will simply be &quot;Enjoy&quot;.</h4>
+<p>I'll try as much as I can to enjoy the moment, take time to appreciate a simple meal with my family, time to enjoy visiting a new city, time to enjoy running, looking at nature. To put it simple, enjoy more all small things that make my  life.</p>
+<p>For this, I'll have to calm down, chill out, and also sometime take a step back from my busy schedule. I'll also have to improve the way I deal with notifications coming from all devices (more on that on a post coming).</p>
+<p>I also plan to enjoy more at work.</p>
+<p>Don't get me wrong, I love my job. I'm really passionate about it, tt's full of excitement, stimulations, great responsibilities, nice colleagues, ... but for this year I want to take time to realize how lucky I'm to hold such a position, to take time to celebrate our great results take time to really enjoy it.</p>
+<p>&quot;Enjoy&quot; means also being optimistic. People keep telling me I'm not so bad at it, often I'm the guy that sees the &quot;half-full&quot; glass of water and this why the headline of my blog is &quot;Welcome, Smile, Life is good !&quot;.</p>
+<p>Being optimistic is a strong engine for me and I'm convinced it helps to be to be stronger. Recently I've realized I'm sometimes less optimistic as I used to be especially in some stressful or boring situations.</p>
+<p>I'll try to keep the positive view during this year!</p>
+<h3>I wish you a very good year. Enjoy !</h3>
+<blockquote>Image by [@SoniaT](https://twitter.com/SoniaT)
+>
+> </blockquote>
 
+
+    </p>
+  </div>
+
+  <div class="post-content">
+    <hr>
+    <h1>How to Work Less to Achieve More&#39;</h1>
+    <p class="lead">
+      by
+      
+      <time class="postlist-date" datetime="2018-12-13">13 Dec 2018</time>
+    </p>
+
+    <p>
+      <pre><code>This post is part of &lt;a href=&quot;http://laurentmaumet.com/books&quot;&gt;a series&lt;/a&gt; of posts about book I've read. My objective in these posts is not to do a complete summary of the book, but more to give you an idea of the content and why you should read it. They are also memos I use to remind myself what I've read.
+</code></pre>
+<p><img src="https://www.dropbox.com/s/qlxstbn2z9cgo68/rsz_hyperfocus.png?dl=1" alt=""></p>
+<p>Hyper Focus - How to Work Less and Achieve More.</p>
+<p>Author : <a href="https://twitter.com/Chris_Bailey">Chris Bailey.</a></p>
+<h2>Summary</h2>
+<p>One more book about personal organization and productivity.</p>
+<p>What makes it particular is that it addresses a key topic which is &quot;focus&quot; : how to deal with interruptions and distractions we are subject to in order to be more porductive.</p>
+<p>Did you ever found yourself ineffective because you spent a bunch of hours without completing any task but switching between few of them ? or reading websites ? or playing a game on your phone?</p>
+<p>This book is for you It gives a clear view about possible root causes and proposes an action plan to correct it.</p>
+<p>I'm a big fan of <a href="http://laurentmaumet.com/category/ztd/">Zen Habits</a> by Leo Babauta as it helped me to reshape my <a href="http://laurentmaumet.com/work/">personal organization</a> years ago and I found this book is a very good complement, with similar ideas but a different perspective.</p>
+<p>It is at the same time quite high level with concepts, theory but also very practical with donw to the earth ideas to implement.</p>
+<p>First concept is  &quot;hyper focus&quot; : how do you put yourself in condition to really focus on what you are doing.  In order to do so, you have to &quot;manage&quot; the distractions.</p>
+<p>Distractions are divided in 4 categories :</p>
+<ol>
+<li>no control  / annoying  : office visitiors, loud colleagues, meetings  2. no control / fun  : team lunches, call from loved ones, watercooler conversations  3. control / annoying : email, phone alerts, meetings  4. control / fun : new websites, social media, instant messaging accounts</li>
+</ol>
+<p>2 types of focus</p>
+<ol>
+<li>&quot;hyper focus &quot;where you cut all distractions (by puting your phone on plane mode, ...)  2. &quot;regular&quot; where you cut some but not all distractions</li>
+</ol>
+<p>Main idea about hyperfocus is :</p>
+<ol>
+<li>choose a productive or meaningful object of attention;   2. eliminate as many external and internal distractions as you can;   3. focus on that chosen object of attention  4. continually draw your focus back to that one object of attention.</li>
+</ol>
+<p>The second concept (and it was a surprise to me) is &quot;scatter focus&quot;.</p>
+<p>Scatter focus is about conscientiously letting your mind wandering. The point the author makes is that focusing is very important, but you also need times where you let your mind go.</p>
+<p>A big part of the book is about this &quot;scatter focus&quot; concept.</p>
+<p>I especially like the &quot;Scatter focus capture&quot; which is about spending 5 to 10 minutes, 1 or 2 times per week to let your mind go and take note about all the open loops you have in mind.</p>
+<h2>My notes</h2>
+<blockquote>As many as 40 percent of our actions are habits, which shouldn’t require conscious deliberation.
+> 
+> </blockquote>
+<blockquote>Directing your attention toward the most important object of your choosing—and then sustaining that attention—is the most consequential decision we will make throughout the day. We are what we pay attention to.
+> 
+> </blockquote>
+<blockquote>There are two main criteria to consider when categorizing what to focus on: whether a task is productive (you accomplish a lot by doing it) and whether a task is attractive (fun to do) or unattractive (boring, frustrating, difficult, etc.).
+> 
+> </blockquote>
+<blockquote>But how many of these eleven million bits can our minds consciously process and focus on at once? Just forty of them. Not forty million or forty thousand, but forty.
+> 
+> </blockquote>
+<blockquote>Our lives are generally structured around the fact that we’re able to hold, at most, seven pieces of unique information in our short-term memory.
+> 
+> </blockquote>
+<blockquote>At any one time, your attentional space should hold at most two key things that you are processing: what you intend to accomplish and what you’re currently doing.
+> 
+> </blockquote>
+<blockquote>But it’s important to make a distinction between shifting our attention and multitasking.
+> 
+> </blockquote>
+<blockquote>1. How much of your time you spend intentionally 2. How long you can hold your focus in one sitting 3. How long your mind wanders before you catch it
+> 
+> </blockquote>
+<blockquote>You enter this mode by managing your attention deliberately and purposefully: by choosing one important object of attention, eliminating distractions that will inevitably arise as you work, and then focusing on just that one task.
+> 
+> </blockquote>
+<blockquote>Hyperfocus is many things at once: it’s deliberate, undistracted, and quick to refocus, and it leads us to become completely immersed in our work. It also makes us immensely happy.
+> 
+> </blockquote>
+<blockquote>When it comes to your most important tasks, the fewer things you pay attention to, the more productive you become.
+> 
+> </blockquote>
+<blockquote>You enter into hyperfocus when you engage both your thoughts and your external environment and direct them at one thing intentionally.
+> 
+> </blockquote>
+<blockquote>To hyperfocus, you must 1. choose a productive or meaningful object of attention; 2. eliminate as many external and internal distractions as you can; 3. focus on that chosen object of attention; and 4. continually draw your focus back to that one object of attention.
+> 
+> </blockquote>
+<blockquote>The concept of hyperfocus can be summed up in a single tranquil sentence: keep one important, complex object of attention in your awareness as you work.
+> 
+> </blockquote>
+<blockquote>Rule of 3: at the start of each day, choose the three things you want to have accomplished by day’s end.
+> 
+> This is similar to MIT concepts of Zen Habits.</blockquote>
+<blockquote>Once you become aware of how frequently you interrupt yourself, it’s hard to go back to working the same way again. This is why it is critical to manage your attentional space wisely. You can focus for so much longer by taming distractions ahead of time.
+> 
+> </blockquote>
+<blockquote>Environmental cues don’t actively interrupt us, like notifications, but they can do just as much harm to our productivity and personal life.
+> 
+> </blockquote>
+<blockquote>There is a wealth of research that examines why our mind wanders at the exact time we’re trying to focus. It does so significantly more when • we’re feeling stressed or bored; • we’re working in a chaotic environment; • we’re dealing with and thinking about a number of personal concerns; • we’re questioning whether we’re working on the most productive or meaningful task; or • we have unused attentional space—the more we have, the more prone we are to mind-wandering episodes.
+> 
+> </blockquote>
+<blockquote>If you find it difficult to become immersed in your work throughout the day, it’s worth questioning whether your tasks are difficult and complex enough.
+> 
+> </blockquote>
+<blockquote>On the opposite end of the spectrum, if you find you’re anxious at work even after taming distractions and working with more intention, consider whether your current skills are a good match for the tasks at hand.
+> 
+> </blockquote>
+<blockquote>There is, however, one practice that has been proven in study after study to increase working memory capacity: meditation.
+> 
+> </blockquote>
+<blockquote>Practicing mindfulness is another proven way to increase the size of your attentional space.
+> 
+> </blockquote>
+<blockquote>Begin to practice mindfulness by choosing one daily task that doesn’t consume your complete attention—sipping your morning coffee, walking through your office, or taking a shower
+> 
+> </blockquote>
+<blockquote>The research is clear: mindfulness and meditation improve virtually every aspect of how you manage your attention.
+> 
+> </blockquote>
+<blockquote>One area I’ve noticed that particularly benefits from hyperfocus is conversations. The secret to deep, meaningful conversations is simple: bring your complete attention to the person you’re speaking with.
+> 
+> </blockquote>
+<blockquote>Continually scanning for threats is what compels us to dwell on that one negative email or overthink a careless offhand comment from our boss. What once aided our chances at survival now sabotages our productivity and creativity in the modern world.
+> 
+> </blockquote>
+<blockquote>When your mind wanders, it visits three main places: the past, the present, and the future. This is precisely why scattering your attention allows your creativity to flourish as you travel through time and connect what you’ve learned to what you’re doing or what you want to achieve.
+> 
+> </blockquote>
+<blockquote>I draw the line between mind wandering and scatterfocus. Scatterfocus is always intentional.
+> 
+> </blockquote>
+<blockquote>I’ve found it helpful to distinguish among a few different styles of scatterfocus: 1. Capture mode: Letting your mind roam freely and capturing whatever comes up. 2. Problem-crunching mode: Holding a problem loosely in mind and letting your thoughts wander around it. 3. Habitual mode: Engaging in a simple task and capturing the valuable ideas and plans that rise to the surface while doing it. Research has found this mode is the most powerful.
+> 
+> </blockquote>
+<blockquote>This chapter is one of the shortest in the book, because the main idea is simple: scatterfocus mode helps us to recharge our ability to hyperfocus, in addition to letting us plan for the future and become more creative.
+> 
+> </blockquote>
+<blockquote>Useful information is typically the densest of the three categories. Books are a good illustration: while a book can sometimes take less than ten hours to read, it can take decades to write and may contain a lifetime of lessons that the author has learned and summarized. Books provide access to the highest-quality thinking and most useful dots on pretty much any topic.
+> 
+> </blockquote>
+<blockquote>The Zeigarnik effect makes us want to finish what we start, but every minute we spend on something useless is a minute we lose working on something useful.
+> 
+> </blockquote>
+<blockquote>Invest in serendipity. Consume challenging things outside the boundaries of your expertise,
+> 
+> </blockquote>
+<blockquote>Set your browser’s homepage to open with Wikipedia’s “random article” bookmark. Look through the AMA (Ask Me Anything) section on Reddit, where world-renowned experts answer popular questions from everyday people.
+> 
+> </blockquote>
+<blockquote>Open offices do have their benefits. One is that they support working for longer on a single project before switching to another. The reason for this is interesting: while our colleagues interrupt us more in an open environment, they’re also more considerate about when they do.
+> 
+> </blockquote>
+<blockquote>If you’re a manager, consider the type of work your team does before you plan for an open office. If you do decide this design is worth the potential productivity costs, be sure to educate your employees on how to manage interruptions.
+> 
+> </blockquote>
+<blockquote>One of the best strategies to train your brain to become more aware is the hourly awareness chime.
+> 
+> </blockquote>
+
+
+    </p>
+  </div>
+
+  <div class="post-content">
+    <hr>
+    <h1>0 to 1</h1>
+    <p class="lead">
+      by
+      
+      <time class="postlist-date" datetime="2018-06-14">14 Jun 2018</time>
+    </p>
+
+    <p>
+      <pre><code>This post is part of &lt;a href=&quot;http://laurentmaumet.com/books&quot;&gt;a series&lt;/a&gt; of posts about book I've read. My objective in these posts is not to do a complete summary of the book, but more to give you an idea of the content and why you should read it. They are also memos I use to remind myself what I've read.
+</code></pre>
+<p><img src="https://www.dropbox.com/s/7bnq14oxsopa910/O%20to%201%20resize.png?dl=1" alt=""></p>
+<p>Book title : &quot;0 to 1 - Notes on startups, or how to build the future&quot;</p>
+<p>Author : <a href="https://fr.wikipedia.org/wiki/Peter_Thiel">Peter Thiels</a></p>
+<h1>Summary</h1>
+<p>Peter Thiel is is a co-founder of PayPal, Palantir Technologies and Founders Fund . In this book he gives his view on how to create a new successful business :</p>
+<ul>
+<li>
+<p>to be a real game changer, a new business is nit a copy of an existing one. The Idea has to be totally new. From 0 to 1. Not from n to n+1.</p>
+</li>
+<li>
+<p>monopoly is key. The new business has to be so new that it will be a monopoly.</p>
+</li>
+</ul>
+<p>The book is very practical and full of anecdotes and real examples.</p>
+<h1>My notes</h1>
+<blockquote>Doing what we already know how to do takes the world from 1 to n, adding more of something familiar. But every time we create something new, we go from 0 to 1.
+> 
+> </blockquote>
+<blockquote>Today our challenge is to both imagine and create the new technologies that can make the 21st century more peaceful and prosperous than the 20th.
+> 
+> </blockquote>
+<blockquote>Positively defined, a startup is the largest group of people you can convince of a plan to build a different future.
+> 
+> </blockquote>
+<blockquote>This pessimistic undercurrent drove then-president Bush 41 out of office and won Ross Perot nearly 20% of the popular vote in ’92—the best showing for a third-party candidate since Theodore Roosevelt in 1912.
+> 
+> </blockquote>
+<blockquote>Under perfect competition, in the long run no company makes an economic profit.
+> 
+> </blockquote>
+<blockquote>Monopolists can afford to think about things other than making money
+> 
+> </blockquote>
+<blockquote>Monopolies drive progress because the promise of years or even decades of monopoly profits provides a powerful incentive to innovate.
+> 
+> </blockquote>
+<blockquote>All happy companies are different: each one earns a monopoly by solving a unique problem. All failed companies are the same: they failed to escape competition.
+> 
+> </blockquote>
+<blockquote>children, it cost Microsoft and Google their dominance: Apple came along and overtook them all. In January 2013, Apple’s market capitalization was $500 billion, while Google and Microsoft combined were worth $467 billion. Just three years before, Microsoft and Google were each more valuable than Apple. War is costly business.
+> 
+> </blockquote>
+<blockquote>Every monopoly is unique, but they usually share some combination of the following characteristics: proprietary technology, network effects, economies of scale, and branding.
+> 
+> </blockquote>
+<blockquote>As a good rule of thumb, proprietary technology must be at least 10 times better than its closest substitute in some important dimension to lead to a real monopolistic advantage.
+> 
+> </blockquote>
+<blockquote>As you craft a plan to expand to adjacent markets, don’t disrupt: avoid competition as much as possible.
+> 
+> </blockquote>
+<blockquote>Eroom’s law—that’s Moore’s law backward—observes that the number of new drugs approved per billion dollars spent on R&D has halved every nine years since 1950.
+> 
+> </blockquote>
+<blockquote>Biotech is difficult because we didn’t design our bodies, and the more we learn about them, the more complex they turn out to be.
+> 
+> </blockquote>
+<blockquote>progress without planning is what we call “evolution.”
+> 
+> </blockquote>
+<blockquote>Making small changes to things that already exist might lead you to a local maximum, but it won’t help you find the global maximum.
+> 
+> </blockquote>
+<blockquote>Darwinism may be a fine theory in other contexts, but in startups, intelligent design works best.
+> 
+> </blockquote>
+<blockquote>When Yahoo! offered to buy Facebook for $1 billion in July 2006, I thought we should at least consider it. But Mark Zuckerberg walked into the board meeting and announced: “Okay, guys, this is just a formality, it shouldn’t take more than 10 minutes. We’re obviously not going to sell here.”
+> 
+> </blockquote>
+<blockquote>In 1906, economist Vilfredo Pareto discovered what became the “Pareto principle,” or the 80-20 rule, when he noticed that 20% of the people owned 80% of the land in Italy
+> 
+> </blockquote>
+<blockquote>Remember our contrarian question: what important truth do very few people agree with you on?
+> 
+> </blockquote>
+<blockquote>All fundamentalists think this way, not just terrorists and hipsters. Religious fundamentalism, for example, allows no middle ground for hard questions: there are easy truths that children are expected to rattle off, and then there are the mysteries of God, which can’t be explained.
+> 
+> </blockquote>
+<blockquote>When a cheap laptop beats the smartest mathematicians at some tasks but even a supercomputer with 16,000 CPUs can’t beat a child at others, you can tell that humans and computers are not just more or less powerful than each other—they’re categorically different.
+> 
+> </blockquote>
+<blockquote>And that’s the point: computers are tools, not rivals.
+> 
+> </blockquote>
+<blockquote>Why do so many people miss the power of complementarity?
+> 
+> </blockquote>
+<blockquote>But when indefinitely optimistic investors betting on the general idea of green energy funded cleantech companies that lacked specific business plans, the result was a bubble.
+> 
+> </blockquote>
+
+
+    </p>
+  </div>
+
+  <div class="post-content">
+    <hr>
+    <h1>Read&#39;</h1>
+    <p class="lead">
+      by
+      
+      <time class="postlist-date" datetime="2018-02-07">07 Feb 2018</time>
+    </p>
+
+    <p>
+      <p>#My word for 2018 will be &quot;Read&quot;<img src="http://laurentmaumet.com/wp-content/uploads/2018/02/34479911450_9ae0919cb6-300x200.jpg" alt=""></p>
+<p>I started with this &quot;word of the year&quot; idea 2 years ago. This idea of replacing the traditional New Year’s resolutions by just 1 word is an idea I took from <a href="https://medium.com/@bcurdy/my-best-habit-the-word-of-the-year-db369dbc060d#.nxols5fsj">Benoit Curdy</a>.</p>
+<p>In 2016 the word I choose was  &quot;<a href="http://laurentmaumet.com/focus/">Focus</a>&quot;, in 2017 &quot;<a href="http://laurentmaumet.com/learn">Learn</a>&quot;.</p>
+<p>In fact, I realized that Focus + Learn = Read!</p>
+<p>I love reading books as it's a quiet moment during which I'll have to focus on one single and simple task and at the same time it highly stimulates me, opens new horizons, brings me new ideas.</p>
+<p>In 2016 I read 10 books, in 2017 16. For 2017, my objective is to finish 24 books which is 2 per month.</p>
+<p>Around 1/3 of it should be fictional books that I listen to while running using <a href="https://www.audible.com/">Audible</a>.</p>
+<p>The other 2/3 will be non-fictional books I'll read using my Kindle. For these, my objective will be to find a way to remind what I read.</p>
+<p>When I read I often highlight interesting paragraphs or quotes. My track record in remembering what I read is very low, this is quite frustrating as one of my objectives when I read books is to learn things and to be able to share with others about these readings.</p>
+<p>I'll implement the method proposed here  <a href="https://www.fs.blog/2014/05/remembering-what-you-read/">A System for Remembering What You Read</a>.</p>
+<p>It seems to be a little bit too complicated and may put many constraints on me but I'll give it a try and simplify it if needed.</p>
+<p>I'll publish my notes about books on this blog even if it may be a difficult exercise as some of the books I read are written in French and here I write in English. But let's try!</p>
+<p>I'll also continue to use <a href="https://www.goodreads.com/review/list/12898931-lmau?shelf=currently-reading">Goodreads</a>.</p>
+<blockquote>Photo Credit: [wuestenigel](https://www.flickr.com/photos/30478819@N08/34479911450/) Flickr via [Compfight](http://compfight.com) [cc](https://creativecommons.org/licenses/by/2.0/)</blockquote>
+
+
+    </p>
+  </div>
+
+  <div class="post-content">
+    <hr>
+    <h1>Learn&#39;</h1>
+    <p class="lead">
+      by
+      
+      <time class="postlist-date" datetime="2017-01-27">27 Jan 2017</time>
+    </p>
+
+    <p>
+      <p>1 year ago I decided that my word for 2016 would be &quot;<a href="http://laurentmaumet.com/focus/">Focus</a>&quot; and I'm very happy about it.
+<img src="http://laurentmaumet.com/wp-content/uploads/2017/01/robbie-300x300.jpg" alt="robbie"></p>
+<p>This idea of replacing the traditional New Year’s resolutions by just 1 word is an idea I took from <a href="https://medium.com/@bcurdy/my-best-habit-the-word-of-the-year-db369dbc060d#.nxols5fsj">Benoit Curdy</a> and for 2016 it works for me. I really made progress, it helped me to be more efficient and enjoy life (1 tab in browser is quite challenging but I love it :-) )</p>
+<p>It's now time to decide what will be my new word for 2017 and it will be &quot;<strong>Learn</strong>&quot;.</p>
+<p>I've always been in a &quot;learning&quot; attitude. During my career, I've jumped between different topics, businesses, jobs.</p>
+<p>Learning new things is key to be able to invent, innovate.</p>
+<p>In the tech area, many things are happening: block-chain, Artificial Intelligence, Augmented Reality, Virtual Reality, autonomous cars, chatbots, platforms, and also Arduino, raspberry, IoT, ...
+The world is changing very fast thanks to new technologies and it's going faster and faster.</p>
+<p>Looking back at what has happened in the last 10 years, is really mind-blowing.</p>
+<blockquote>
+<blockquote>
+<p>Didn't exist in 2006:
+iPhone
+iPad
+Kindle
+4G
+Uber
+Airbnb
+Android
+Oculus
+Spotify
+Nest
+Kickstarter
+Stripe
+Square
+Instagram
+Snapchat
+WhatsApp</p>
+</blockquote>
+<p>— Vala Afshar (@ValaAfshar) <a href="https://twitter.com/ValaAfshar/status/823521381266690049">23 janvier 2017</a></blockquote></p>
+<p>What will happen in the next 10 years?</p>
+<p>In order to really understand what is happening, be able to anticipate trends, and innovate I think it's even more important to learn.</p>
+<p>My objective for this year will be to spend the time to learn new things, especially in the tech area.
+That will include</p>
+<pre><code>  * learn more about A.I. I know the theory of neural networks as I studied it in the '90 but I need to learn how to use it now (could be with google Tensorflow or others)
+  * learn new development languages (should be node.js and Angular.js)
+  * learn how to assemble hardware to build simple automation in my house (could be [this](http://lifehacker.com/build-a-silent-texting-doorbell-with-an-amazon-dash-bu-1790899374) or [that](http://lifehacker.com/build-an-automated-voice-controlled-cat-feeder-1791033326))
+  * learn more about block-chain (not sure what I can do with that).
+</code></pre>
+<p>In order to learn I'll have to :</p>
+<pre><code>  * **Dedicate time** to this activity (this means less time other things, I'll have to make choices)
+  * **Read** more and more: As Confucius said: “You cannot open a book without learning something.”. Last year I read [10 books](https://www.goodreads.com/user/year_in_books/2016/12898931?utm_source=twitter),  I plan to read at least 15 this year.
+  * **Try things, experiment**. I'll try as much as possible to implement concrete things. Experiment means failure, and failure means learning.
+  * **Share** as much as possible. Share with my friends, my colleagues, my family but also online. I'm a heavy user of Twitter and LinkedIn, I will be more present on Facebook to share and interact with others (especially to learn how it works )
+</code></pre>
+<p>I wish you a wonderful year!</p>
+
+
+    </p>
+  </div>
+
+  <div class="post-content">
+    <hr>
+    <h1>Spotify Engineering Culture</h1>
+    <p class="lead">
+      by
+      
+      <time class="postlist-date" datetime="2016-01-18">18 Jan 2016</time>
+    </p>
+
+    <p>
+      <p>Spotify the well know music app is a European company that is very successful. It seems that the culture in the company is quite unique and the good think is that they are public about it and even spend the time to explain it.</p>
+<p>There are 2 charts  I keep using for years to inspire me.</p>
+<p>It's simple, easy to read and full of great ideas.</p>
+<p>https://vimeo.com/85490944</p>
+<p>https://vimeo.com/94950270</p>
+<p>To know more, it's on this <a href="https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/">page</a>.</p>
+
+
+    </p>
+  </div>
+
+  <div class="post-content">
+    <hr>
+    <h1>About machine learning</h1>
+    <p class="lead">
+      by
+      
+      <time class="postlist-date" datetime="2016-01-13">13 Jan 2016</time>
+    </p>
+
+    <p>
+      <p>Machine learning is changing the world.</p>
+<p>In near future electronics systems (our phones, our cars, our watches, our smart home, ...) will be able to achieve results that will bring us in another dimension.</p>
+<p>Machine learning is a technology really rising for 2 years and creating huge business value. It's pushed by the big ones as it's at the heart of their business: Google, Facebook, Baidu, Tesla, ... When Netflix recommends you a film, they use machine learning, when Gmail filter your spam, they use machine learning, and so on. These are &quot;simple&quot; examples, more important ones are coming.</p>
+<h3>First example: autonomous cars.</h3>
+<p>Soon ( Elon Musk recently announced it will be in <a href="http://cleantechnica.com/2016/01/01/level-4-autonomous-driving-possible-in-2-years-elon-musk-contends/">2 years from now</a>) cars will be able to run autonomously in 'normal' streets.</p>
+<p>They will be able to 'drive' better than normal humans.</p>
+<p>Recently, <a href="https://en.wikipedia.org/wiki/George_Hotz">George Hotz</a> claimed he is building an autonomous car, by himself, and using a software he wrote made of only 2000 lines of code.</p>
+<p>You should read the <a href="http://www.bloomberg.com/features/2015-george-hotz-self-driving-car/">article</a> and watch the <a href="http://www.bloomberg.com/features/2015-george-hotz-self-driving-car/">video</a>, very impressive: the software does not explain the car how to drive, but how to learn to drive. George has to drive kilometers (he even plan to be an Uber driver to gather more data) and the car learns to drive looking at George's rides data.</p>
+<h3>Another example is image or speech recognition.</h3>
+<p>Google Photos is now able to <a href="https://support.google.com/photos/answer/6128838?hl=en&amp;ref_topic=6128856">search</a> your pictures based on people, things or places.</p>
+<p>Andrew Ng from Baidu Research <a href="https://www.youtube.com/watch?v=NRv4w7SKw9M">presented</a> a device (a simple camera plugged into a smartphone) that is able to analyze and describe what it sees. Baidu Eye.</p>
+<p>There's also a cool <a href="https://vimeo.com/146492001">video</a> with Kyle McDonald walking in an Amsterdam Street with his opened laptop and the software is describing what it can see throw the webcam, for example, 'a man eating a hotdog in a crowd' or 'a person riding a skateboard on a city street'. It's amazing to see in real timing the algorithm reacting to new real-life situations.</p>
+<p>The business applications for these image recognition capabilities are huge.</p>
+<p>For example, a user takes a picture of a something he'd like to buy and the application is able to recognize the object and propose offers.</p>
+<h1>So what is machine learning?</h1>
+<blockquote>Machine learning is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed. Machine learning focuses on the development of computer programs that can teach themselves to grow and change when exposed to new data.</blockquote>
+<p>(<a href="http://whatis.techtarget.com/definition/machine-learning">source</a>)</p>
+<p>For an extensive explanation, there is <a href="https://en.wikipedia.org/wiki/Deep_learning">Wikipedia</a>.</p>
+<p>The best and simplest explanation I've seen is recently is in the book &quot; <a href="http://www.amazon.com/dp/0994941803/ref=pe_1763890_145073370_tnp_emaildp_1">Robbie the Robot Learns to Read</a>&quot; (by the way it's a book for kids).</p>
+<p>The story is about Robbie the robot that wants to learn to read.</p>
+<p>First, Robbie is taught about syntax and grammar rules. This is not a Succes, Robbie is in fact not able to read books because he often encounters text that does not follow the rules he learned. This is &quot;standard&quot; programming. The second method is to simply let Robbie &quot;read&quot; as many books as possible (as he doesn't know how to read, it means he will just parse texts). Based on all these &quot;reading&quot;, Robbie will be able to self-learn how a text is structured, how it works, and then learn how to read.</p>
+<p>In this <a href="https://www.youtube.com/watch?v=NRv4w7SKw9M">video</a>, Andrew Ng from Baidu Research gives an example of how they fed a software with youtube videos for 1 week. After 1 week, the software has been able to autogenerate a neural network to recognize the most common image on youtube: a cat! (even if he even doesn't know what a cat is). The beauty of machine learning is that the most it gathers data, the most it's accurate.</p>
+<h1>Why is Machine learning coming now?</h1>
+<p>The theory behind machine learning is quite old. It's about <a href="https://en.wikipedia.org/wiki/Artificial_neural_network#History">neural network</a> type algorithms that have been established years ago.</p>
+<p>The theory is nice but like a rocket in order to fly it needs 2 things: a big motor and a big fuel tank. A rocket with a big motor and small tank will not go very far, a rocket with a small motor and a lot of fuel will even not take off.</p>
+<p>For machine learning, the motor is the computing power, the fuel is data.</p>
+<p>Thanks to Moore's law processors (CPU or GPU) are always more powerful, thanks to cloud computing a huge amount of processing are accessible for everybody, this is key to power the machine learning algorithm.</p>
+<p>The fuel is data. <a href="http://www.sciencedaily.com/releases/2013/05/130522085217.htm">90% of world's data</a> have been generated over last two years. Because storage is cheaper and cheaper (people thinks it may be 0$ soon), and accessible easily thanks to the cloud, a machine algorithm can find fuel easily.</p>
+<h3>What's next?</h3>
+<p>Today machine learning is just at the beginning. It's often used as a buzz word, a lot is still to be done, but machine learning is changing the world and that's a great news!</p>
+
+
+    </p>
+  </div>
+
+  <div class="post-content">
+    <hr>
+    <h1>Focus&#39;</h1>
+    <p class="lead">
+      by
+      
+      <time class="postlist-date" datetime="2016-01-04">04 Jan 2016</time>
+    </p>
+
+    <p>
+      <p><img src="http://laurentmaumet.com/wp-content/uploads/2016/01/U0Y3SC9Z42-300x199.jpg" alt="Focus"></p>
+<p>I like new year time. It's a time when business really slows down for few days and when I've time to think about long-term stuff. It's a good time to take a fresh start and take some good new-year resolutions. For example, one of the best resolutions I took was back in '12 when <a href="http://laurentmaumet.com/my-experience-with-ztd-lets-start/">I decided to implement</a> &quot;Zen To Done&quot; productivity method from Leo Babauta, it really changed my life.</p>
+<p>Of course like all of us I'm struggling to find sustainable new year resolutions that I'll not forget after few weeks or even few days.</p>
+<p>For this year, I've been inspired by <a href="https://twitter.com/bcurdy">Benoit Curdy</a> who proposed to make it simple and only take 1 word (he took <a href="https://medium.com/@bcurdy/my-best-habit-the-word-of-the-year-db369dbc060d#.jcsmm65xy">&quot;Quality&quot;</a> for this year).</p>
+<p>For me, the word will be <strong>&quot;Focus&quot;</strong>. For 2016, in all my actions I'll focus as much as possible:</p>
+<ul>
+<li>in meetings, I'll be 100% focused on what happen in the room (i.e. not checking my phone, browsing the internet or answering emails)</li>
+<li>when I'll be with someone I'll focus on what he or she is telling me</li>
+<li>I'll keep only 1 browser tab open to focus on the action I'm currently doing (writing a document, answering an email, reading news, ...). I took this one from a <a href="http://zenhabits.net/single/">recent post</a> from Leo Babauta, I already tried it, it's not easy, but cool.</li>
+<li>to create new habits, I'll focus only on 1 per month (taking 30 days challenges)</li>
+<li>every week I'll choose which big project I want to focus on to make a move</li>
+<li>when I run (I do it 4 times per week) I'll listen to nothing and just focus on the run (not all runs, but maybe 1 / week)</li>
+<li>I'll read only 1 book at a time (I've currently 4 books in progress)</li>
+<li>...</li>
+</ul>
+<p>What I expect from this focus is:</p>
+<ul>
+<li>be more efficient avoiding multitasking, and being really concentrated</li>
+<li>be able to move on a big complicated project by focusing on 1 specific action</li>
+<li>be a better manager for my team</li>
+<li>be a better dad and husband</li>
+</ul>
+<p>This word &quot;Focus&quot; will be always in my mind.
+In order to change my behaviour, I'll proceed step by step and implement changes 1 by 1, with focus! (not trying to do all objectives that are in the post starting tomorrow) .</p>
+<p>I wish you a very good year!</p>
+
+
+    </p>
+  </div>
+
+
+<ol reversed="reversed" class="postlist" style="counter-reset: start-from 258">
+  
+    <li class="postlist-item">
+      <a href="/posts/2020-03-31-Ce-que-la-technologie-peut-apporter-(ou-pas)-à-la-résolution-la-crise-de-COVID-19/" class="postlist-link">
+        Quelles technologies pour sortir de la crise COVID-19
+        
+      </a>
+      <time class="postlist-date" datetime="2019-10-11">11 Oct 2019</time>
+      
+
+    </li>
+    [object Object]
+  
+    <li class="postlist-item">
+      <a href="/posts/2019-10-11-the-end-of-chapter-2/" class="postlist-link">
+        The end of Chapter 2
+        
+      </a>
+      <time class="postlist-date" datetime="2019-10-11">11 Oct 2019</time>
+      
+
+    </li>
+    [object Object]
+  
+    <li class="postlist-item">
+      <a href="/posts/2019-01-08-enjoy/" class="postlist-link">
+        Enjoy&#39;
+        
+      </a>
+      <time class="postlist-date" datetime="2019-01-08">08 Jan 2019</time>
+      
+
+    </li>
+    [object Object]
+  
+    <li class="postlist-item">
+      <a href="/posts/2018-12-13-hyperfocus/" class="postlist-link">
+        How to Work Less to Achieve More&#39;
+        
+      </a>
+      <time class="postlist-date" datetime="2018-12-13">13 Dec 2018</time>
+      
+
+    </li>
+    [object Object]
+  
+    <li class="postlist-item">
+      <a href="/posts/2018-06-14-0-to-1/" class="postlist-link">
+        0 to 1
+        
+      </a>
+      <time class="postlist-date" datetime="2018-06-14">14 Jun 2018</time>
+      
+
+    </li>
+    [object Object]
+  
+    <li class="postlist-item">
+      <a href="/posts/2018-02-07-read/" class="postlist-link">
+        Read&#39;
+        
+      </a>
+      <time class="postlist-date" datetime="2018-02-07">07 Feb 2018</time>
+      
+
+    </li>
+    [object Object]
+  
+    <li class="postlist-item">
+      <a href="/posts/2017-01-27-learn/" class="postlist-link">
+        Learn&#39;
+        
+      </a>
+      <time class="postlist-date" datetime="2017-01-27">27 Jan 2017</time>
+      
+
+    </li>
+    [object Object]
+  
+    <li class="postlist-item">
+      <a href="/posts/2016-01-18-spotify-culture/" class="postlist-link">
+        Spotify Engineering Culture
+        
+      </a>
+      <time class="postlist-date" datetime="2016-01-18">18 Jan 2016</time>
+      
+
+    </li>
+    [object Object]
+  
+    <li class="postlist-item">
+      <a href="/posts/2016-01-13-machinelearning/" class="postlist-link">
+        About machine learning
+        
+      </a>
+      <time class="postlist-date" datetime="2016-01-13">13 Jan 2016</time>
+      
+
+    </li>
+    [object Object]
+  
+    <li class="postlist-item">
+      <a href="/posts/2016-01-04-focus/" class="postlist-link">
+        Focus&#39;
+        
+      </a>
+      <time class="postlist-date" datetime="2016-01-04">04 Jan 2016</time>
+      
+
+    </li>
+    [object Object]
+  
 </ol>
 
 
-<p>More posts can be found in <a href="/posts/">the archive</a>.</p>
+<p>More posts can be found in
+  <a href="/posts/">the archive</a>.</p>
 
 
 
+
+          </div>
+        </div>
+      </div>
 
     </main>
 
     <footer></footer>
 
     <!-- Current page: / -->
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/scripts/main.050f5fa2550ae33ec02c.js"></script>
+
+    
   </body>
 </html>

@@ -1,13 +1,14 @@
 ---
-title: "Quelles tehcnologies pour sortir de la crise COVID-19"
+title: "Quelles technologies pour sortir de la crise COVID-19"
 date: 2019-10-11 08:31:51+00:00
 draft: false
 layout: layouts/post.njk
 tags: posts
+author: "Laurent"
 ---
 ### La sortie de crise de la pandémie de COVID-19 nécessitera l'utilisation d’outil numériques de suivi de la population.
 
-En l'absence de vaccin et de traitement disponibles, combattre l’épidémie de COVID-19 passe une identification et une mise en quarantaine des personnes atteintes. 
+En l'absence de vaccin et de traitement disponibles, combattre l’épidémie de COVID-19 passe une identification et une mise en quarantaine des personnes atteintes.
 
 Le confinement total actuellement en vigueur en France permet d'atteindre cet objectif (puisque l’ensemble de la population est en quarantaine) mais a un impact très important sur la vie des personnes et l’économie.
 
@@ -53,7 +54,7 @@ En France, nous n'avons pas d’acteurs de ce type.
 
 ### Des pistes pour la suite
 
-#### Préserver les libertés individuelles "by design". 
+#### Préserver les libertés individuelles "by design".
 
 Pas de centralisation des données.
 
