@@ -12,6 +12,15 @@ const manifestPath = path.resolve(__dirname, "dist", "scripts", "manifest.json")
 const manifest = JSON.parse(fs.readFileSync(manifestPath, { encoding: "utf8" }))
 
 module.exports = function (eleventyConfig) {
+
+
+  eleventyConfig.addCollection("posts_en", function (collection) {
+    return collection.getFilteredByGlob("./src/en/posts/*.md");
+  });
+  eleventyConfig.addCollection("posts_fr", function (collection) {
+    return collection.getFilteredByGlob("./src/fr/posts/*.md");
+  });
+
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
@@ -68,6 +77,13 @@ module.exports = function (eleventyConfig) {
     });
     eleventyConfig.setLibrary("md", markdownLibrary); */
 
+  // date filter (localized)
+  eleventyConfig.addNunjucksFilter("date", function (date, format, locale) {
+    locale = locale ? locale : "en";
+    moment.locale(locale);
+    return moment(date).format(format);
+  });
+
   // Browsersync Overrides
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
@@ -113,6 +129,17 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       data: "_data",
       output: "dist"
+    },
+    buildTime: new Date(),
+
+
+    en: {
+      metaTitle: "Title in english",
+      metaDescription: "Description in english"
+    },
+    fr: {
+      metaTitle: "Titre en français",
+      metaDescription: "Description en français"
     }
   };
 };

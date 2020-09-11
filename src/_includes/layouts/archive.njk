@@ -1,0 +1,7 @@
+{% extends "layouts/base.njk" %}
+
+<h1>Archive</h1>
+{% set col = "posts_" + locale %}
+{% set postslist = collections[col]%}
+
+{% include "partials/postslist.njk" %}

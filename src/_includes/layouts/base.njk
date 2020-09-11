@@ -1,42 +1,62 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ locale }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ renderData.title or title or metadata.title }}</title>
+    <title>{{ metaTitle }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
     {#    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> #}
 
     {#  <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}"> #}
-    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metaTitle }}">
     {% bundledCss %}
 
   </head>
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
       <div class="container">
-        <a class="navbar-brand" href="/">{{ metadata.title }}</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            {%- for entry in collections.all | eleventyNavigation %}
-              <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
-                <a class="nav-link" href="{{ entry.url | url }}">{{ entry.title }}
-                  {% if entry.url == page.url %}
-                    <span class="sr-only">(current)</span>{% endif %}
-                </a>
-              </li>
-            {%- endfor %}
-          </ul>
+        <div class="row align-items-center">
+
+          <div class="col-6 col-md-8 col-xl-8  d-block">
+            <h1 class="mb-0 site-logo">
+              <a href="/index.html" class="text-black mb-0">Laurent Maumet<span class="text-primary">.</span>
+              </a>
+            </h1>
+          </div>
+
+          <div class="col-12 col-md-9 col-xl-8 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
+                {% include "partials/mainnav.njk" %}
+                {% include "partials/lggnav.njk" %}
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0">
+            <a href="#" class="site-menu-toggle js-menu-toggle text-black float-right">
+              <span class="icon-menu h3"></span></a>
+          </div>
 
         </div>
       </div>
-    </nav>
+
+    </header>
 
     <main{% if templateClass %} class="{{ templateClass }}" {% endif %}>
       {# <div class="warning">
@@ -50,11 +70,15 @@
 
       <div class="container">
 
-        <div class="row mt-4">
+        <div class="row mt-4 pt-4">
 
           <div class="col-md-10">
 
-            {{ content | safe }}
+            {% block content %}
+
+              {{ content|safe }}
+
+            {% endblock content %}
           </div>
         </div>
       </div>

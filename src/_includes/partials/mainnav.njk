@@ -1,0 +1,5 @@
+{% for navitem in mainnav[locale] %}
+  <li>
+    <a href="{{ navitem.url }}">{{ navitem.label }}</a>
+  </li>
+{% endfor %}
