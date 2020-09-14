@@ -4,16 +4,14 @@ layout: layouts/base.njk
 
 <h1>{{ title }}</h1>
 
-<!-- Author -->
+{# <!-- Author -->
 <p class="lead">
   by
   {{ author}}
-</p>
+</p> #}
 
 <hr>
-
-<!-- Date/Time -->
-<p>Posted on January 1, 2019 at 12:00 PM</p>
+<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 
 <hr>
 

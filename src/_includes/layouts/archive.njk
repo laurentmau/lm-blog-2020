@@ -1,7 +1,14 @@
 {% extends "layouts/base.njk" %}
 
-<h1>Archive</h1>
-{% set col = "posts_" + locale %}
-{% set postslist = collections[col]%}
+{% block content %}
 
-{% include "partials/postslist.njk" %}
+  <h1>Archive</h1>
+
+  {{ content | safe }}
+
+  {% set col = "posts_" + locale %}
+  {% set postslist = collections[col]%}
+
+  {% include "partials/postslist.njk" %}
+
+{% endblock content %}

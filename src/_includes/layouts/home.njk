@@ -1,7 +1,7 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
-  <div class="container  pt-5" style="height:40vh !important; min-height:400px !important ">
+  <div class="container  pt-4" style="height:40vh !important; min-height:400px !important ">
     <div class="row align-items-center justify-content-center">
 
       <div class="col">
@@ -18,8 +18,8 @@
       <hr>
       <h1>{{ post.data.title }}</h1>
       <p class="lead">
-        by
-        {{ post.data.author}}
+        {# by
+        {{ post.data.author}} #}
         <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 
       </p>
