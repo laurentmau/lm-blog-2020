@@ -1,10 +1,11 @@
-$primary: #6282c2; // Black
-$secondary: #6282c2; //blue
+
+$primary: #6282c2;
+$secondary: #6282c2;
 $body-bg: #fff; //white
 $text-body: #484d52; //gray
 $body-color: $text-body;
 $border-radius: 8px;
-$special: #6282c2; // blue
+$special: #e94A45 ; // myred
 $black: #000;
 $white: #fff;
 $yellow: #fde477;
@@ -15,6 +16,9 @@ $dark-yellow: #e4d48e;
 $red: #ee3530;
 $light-red: #f1857e;
 $gray: #989898;
+
+$myred: #e94A45;
+
 
 $theme-colors: (
   "special": $special,
@@ -27,6 +31,7 @@ $theme-colors: (
   "light-green": $light-green,
   "light-yellow": $light-yellow,
   "dark-yellowww": $dark-yellow,
+  "myred": $myred,
 );
 
 body {
@@ -35,13 +40,24 @@ body {
 
 
 .post-content
-h1 {  font-size: 2.5rem;
+h1 {  font-size: 2rem;
 }
-h2 {  font-size: 1.5rem;
+h2 {  font-size: 1.25rem;
 }
-h3 {  font-size: 1.25rem;
+h3 {  font-size: 1rem;
 }
 h4 {  font-size: 1rem;
 }
+p {
+      font-weight: 300;
+      color: $black;
+      a {
+        // color: $blue;
+                color: $myred !important;
+
+      }
+    }
 
 .lead { font-size : 0.75rem !important}
+
+

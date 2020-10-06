@@ -2,23 +2,18 @@
 layout: layouts/base.njk
 ---
 
-<h1>{{ title }}</h1>
+<div class="post-content">
+  <h1>
+    <a href="{{ url }}">{{ title }}</a>
+  </h1>
+  <p class="lead">
+    {# by
+        {{ author}} #}
+    <time class="postlist-date" datetime="{{ post.date | date('Y-MM-DD') }}">{{ post.date|date("DD MMMM Y", locale) }}</time>
+  </p>
 
-{# <!-- Author -->
-<p class="lead">
-  by
-  {{ author}}
-</p> #}
+  <p>
+    {{ content | safe }}
 
-<hr>
-<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-
-<hr>
-
-{{ content | safe }}
-
+  </p>
 </div>
-</div>
-<p>
-<a href="{{ '/' | url }}">← Home</a>
-</p>

@@ -16,8 +16,19 @@ a {
   transition: 0.3s all ease;
   &:hover {
     text-decoration: none;
+    color: $myred;
   }
+    color: $black;
+
+  //color: $myred;
 }
+
+blockquote {
+    border-top: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+background: lighten(#eeeeee, 3%) !important;  }
+li  { padding-left: 25px;}
+ol  { padding-left: 25px;}
 
 h1,
 h2,
@@ -36,6 +47,9 @@ h5,
 }
 .border-2 {
   border-width: 2px;
+}
+.text-myred {
+  color: $myred !important;
 }
 
 .text-black {

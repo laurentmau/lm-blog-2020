@@ -7,7 +7,9 @@
           <code>{{ post.url }}</code>
         {% endif %}
       </a>
-      <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+
+      <time class="postlist-date lead" datetime="{{ post.date | date('Y-MM-DD') }}">{{ post.date|date("DD MMMM Y", locale) }}</time>
+
       {% for tag in post.data.tags %}
         {%- if collections.tagList.indexOf(tag) != -1 -%}
           {% set tagUrl %}/tags/{{ tag }}/{% endset %}

@@ -63,7 +63,7 @@ In this [video](https://www.youtube.com/watch?v=NRv4w7SKw9M), Andrew Ng from Bai
 # Why is Machine learning coming now?
 
 
-The theory behind machine learning is quite old. It's about [neural network](https://en.wikipedia.org/wiki/Artificial_neural_network#History) type algorithms that have been established years ago.
+The theory behind machine learning is quite old. It's about [neural network](https://en.wikipedia.org/wiki/Artificial_neural_network#History) type algorithms that have been established yea rs ago.
 
 The theory is nice but like a rocket in order to fly it needs 2 things: a big motor and a big fuel tank. A rocket with a big motor and small tank will not go very far, a rocket with a small motor and a lot of fuel will even not take off.
 

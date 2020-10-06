@@ -4,12 +4,15 @@ date: 2019-10-11 08:31:51+00:00
 draft: false
 layout: layouts/post.njk
 tags: posts
+translationKey: chapter2
+permalink: en/chapter2.html
+
 ---
 
 
 
 
-I'm closing Chapter 2 of my professional life as I'm leaving Soitec.  
+I'm closing Chapter 2 of my professional life as I'm leaving Soitec.
 This is a big moment for me as this Chapter 2 lasted 13 years.
 
 
@@ -50,7 +53,7 @@ When I became CIO I've been the initiator and the leader of the company's digita
 
 
 
-In '11, we launched our "Cloud-first" strategy to totally reshape the way we did IT  to improve agility, security, and costs thanks to cloud. 
+In '11, we launched our "Cloud-first" strategy to totally reshape the way we did IT  to improve agility, security, and costs thanks to cloud.
 
 
 
@@ -58,7 +61,7 @@ In '11, we launched our "Cloud-first" strategy to totally reshape the way we did
 
 
 
-This has been a very exciting journey, with key decisions like moving to Google Gmail/Gsuite, like relying on public AWS cloud to run some of our fab critical applications and also tons of experiments, trials, and errors to find the best solutions and to manage change. 
+This has been a very exciting journey, with key decisions like moving to Google Gmail/Gsuite, like relying on public AWS cloud to run some of our fab critical applications and also tons of experiments, trials, and errors to find the best solutions and to manage change.
 
 
 
@@ -66,8 +69,8 @@ This has been a very exciting journey, with key decisions like moving to Google 
 
 
 
-Conviction, resilience has been key during these years to consistently keep pace.  
-The results have been really very rewarding with tangible cost reductions, innovative systems to support business and an incredible 9.7/10 rate given constantly by the rest of the company to our performance. 
+Conviction, resilience has been key during these years to consistently keep pace.
+The results have been really very rewarding with tangible cost reductions, innovative systems to support business and an incredible 9.7/10 rate given constantly by the rest of the company to our performance.
 
 
 
@@ -83,7 +86,7 @@ I'll keep in mind tons of memories with my incredible colleagues. Hard times wit
 
 
 
-During these 13 years, the business story of Soitec has been very dynamic, with high points and very difficult times.  
+During these 13 years, the business story of Soitec has been very dynamic, with high points and very difficult times.
 I'm very proud to have been part of the team that took the leadership beginning of '15 at a very difficult period to turn around the business. This has been a huge opportunity for me to extend my scope outside IT, to Quality, Supply Chain, Procurement. I've learned a lot! This has been an incredible human story with all the company members. This is when I understood that this Digital Transformation is before all a question of culture, of women and men.
 
 
@@ -108,7 +111,7 @@ I know the team is strong, I'm convinced my departure will be an opportunity for
 
 
 
-Soon I will open Chapter 3. This will be a totally new Chapter as I want to launch my own business: Welibo.  
+Soon I will open Chapter 3. This will be a totally new Chapter as I want to launch my own business: Welibo.
 I cannot tell more about it now, but for sure it will be around Digital.
 
 

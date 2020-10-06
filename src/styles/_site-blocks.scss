@@ -78,6 +78,8 @@
     }
   }
 
+
+
   h1 {
     font-size: 3.5rem;
     font-weight: 400;
@@ -87,6 +89,7 @@
       font-size: 2rem;
     }
   }
+
   p {
     color: $gray-600;
     font-size: $font-size-base;
@@ -904,13 +907,7 @@
     h3 {
       color: $black;
     }
-    p {
-      font-weight: 300;
-      color: $black;
-      a {
-        color: $blue;
-      }
-    }
+
   }
 }
 
