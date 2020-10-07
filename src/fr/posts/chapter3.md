@@ -8,6 +8,10 @@ translationKey: chapter3
 permalink: fr/chapter3.html
 
 ---
+
+<img src="/images/5r.svg"
+     alt="5r"
+     style="float: left; margin-right: 10px;" />
 Il y a 1 an, le [chapitre 2]("fr/chapter2.html") de ma vie professionelle se terminait avec mon départ de Soitec après 12 années riches et intenses.
 
 Le chapitre 3 est maintenant commencé et il s'appelle [AuRorA-5R](https://aurora-5r.fr/) que je co-fonde avec [Cédric Stien](https://www.linkedin.com/in/cedric-stien-b1141aa/) et [Pierre-Emmanuel Frot](https://www.linkedin.com/in/pem-frot-1304g73/).
