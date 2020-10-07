@@ -17,12 +17,11 @@ Pour commencer j'ai eu la chance d'être le leader de l'équipe informatique dan
 
 Par la suite, avec l'expension de Soitec mes responsabilités se sont étendues de manière globale. Maintenant j'ai des ex-collègues ou partenaires qui sont parfois des amis en France, à Singapour, aux Etats-Unis, en Allemagne, à Taiwan, au Japon, en Afrique du Sud, en Chine.
 
-En devant DSI j'ai été l'instigateur et le leader de la transformation numérique de l'entreprise étant convaincu depuis 2010 que le Cloud, la mobilité, les réseaux sociaux étaient en train de transformer le monde et donc la façon de faire du business.
+En devenant DSI j'ai été l'instigateur et le leader de la transformation numérique de l'entreprise étant convaincu depuis 2010 que le Cloud, la mobilité, les réseaux sociaux étaient en train de transformer le monde et donc la façon de faire du business.
 
 En 2011 notre projet stratégique "Cloud-first" nous a amené à totalement repenser la façon de faire du numérique en améliorant notre agilité, la sécurité et les couts grace au Cloud.
 
-Ce fut un voyage  passionnant, avec des décisions clés telles que le passage à Google Gmail / Gsuite, ou encore de s's'appuyer sur le cloud public  pour exécuter certaines de nos applications critiques, ainsi que de nombreux  essais, erreurs pour trouver les meilleures solutions et conduire le changement.
-
+Ce fut un voyage  passionnant, avec des décisions clés telles que le passage à Google Gmail / Gsuite, ou encore de s'appuyer sur le cloud public  pour exécuter certaines de nos applications critiques, ainsi que de nombreux  essais, erreurs pour trouver les meilleures solutions et conduire le changement.
 
 
 Conviction et résilience ont été essentielles au cours de ces années pour maintenir le rythme.
