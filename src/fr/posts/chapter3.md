@@ -22,6 +22,8 @@ Mon role dans l'équipe est bien sûr de porter le pilier numérique en utilisan
 
 L'aventure ne fait que commencer et reste à écrire, à bientot pour la suite.
 
+[People Of The Pandemic]("https://peopleofthepandemicgame.com/")
+
 
 
 
