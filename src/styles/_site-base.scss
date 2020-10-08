@@ -4,31 +4,43 @@ body {
   font-weight: 200;
   font-size: $font-size-base;
 }
+
 ::-moz-selection {
   background: $black;
   color: $white;
 }
+
 ::selection {
   background: $black;
   color: $white;
 }
+
 a {
   transition: 0.3s all ease;
+
   &:hover {
     text-decoration: none;
     color: $myred;
   }
-    color: $black;
+
+  color: $black;
 
   //color: $myred;
 }
 
 blockquote {
-    border-top: 1px solid #CCC;
-        border-bottom: 1px solid #CCC;
-background: lighten(#eeeeee, 3%) !important;  }
-li  { padding-left: 25px;}
-ol  { padding-left: 25px;}
+  border-top: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  background: lighten(#eeeeee, 3%) !important;
+}
+
+li {
+  padding-left: 25px;
+}
+
+ol {
+  padding-left: 25px;
+}
 
 h1,
 h2,
@@ -42,12 +54,15 @@ h5,
 .h5 {
   font-family: $font-family-sans-serif;
 }
+
 .bg-light {
   background: lighten(#eeeeee, 3%) !important;
 }
+
 .border-2 {
   border-width: 2px;
 }
+
 .text-myred {
   color: $myred !important;
 }
@@ -55,6 +70,7 @@ h5,
 .text-black {
   color: $black !important;
 }
+
 .bg-black {
   background: $black !important;
 }
@@ -62,6 +78,7 @@ h5,
 .color-black-opacity-5 {
   color: rgba($black, 0.5);
 }
+
 .color-white-opacity-5 {
   color: rgba($white, 0.5);
 }
@@ -85,6 +102,7 @@ h5,
     opacity: 0;
     visibility: hidden;
   }
+
   .offcanvas-menu & {
     // position: absolute;
     height: 100%;
@@ -98,8 +116,10 @@ h5,
     }
   }
 }
+
 .offcanvas-menu {
   position: relative;
+
   &:after {
     position: absolute;
     content: "";
@@ -123,6 +143,7 @@ h5,
     outline: none;
     box-shadow: none !important;
   }
+
   &.btn-primary {
     border-width: 2px;
     background: $primary;
@@ -132,6 +153,7 @@ h5,
     top: 0;
     transition: 0.3s all ease;
     box-shadow: 0 4px 20px -5px rgba($primary, 0.4);
+
     &:hover {
       top: -2px;
       background: $primary;
@@ -145,17 +167,21 @@ h5,
 .line-height-1 {
   line-height: 1 !important;
 }
+
 .bg-black {
   background: $black;
 }
+
 .form-control {
   height: 43px;
   border-radius: 30px;
   font-family: $font-family-sans-serif;
+
   &:active,
   &:focus {
     border-color: $primary;
   }
+
   &:hover,
   &:active,
   &:focus {
@@ -165,6 +191,7 @@ h5,
 
 .site-section {
   padding: 2.5em 0;
+
   @include media-breakpoint-up(md) {
     padding: 5em 0;
   }
@@ -179,6 +206,7 @@ h5,
   margin-bottom: 0px;
   position: relative;
   font-size: 2.5rem;
+
   @include media-breakpoint-up(md) {
     font-size: $font-size-base + 2rem;
   }
@@ -191,32 +219,40 @@ h5,
 .site-footer {
   padding: 4em 0;
   background: lighten($black, 20%);
+
   @include media-breakpoint-up(md) {
     padding: 8em 0;
   }
+
   .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
   }
+
   p {
     color: lighten($black, 45%);
   }
+
   h2,
   h3,
   h4,
   h5 {
     color: $white;
   }
+
   a {
     color: lighten($black, 60%);
+
     &:hover {
       color: lighten($black, 100%);
     }
   }
+
   ul {
     li {
       margin-bottom: 10px;
     }
   }
+
   .footer-heading {
     font-size: 16px;
     color: $white;
@@ -232,6 +268,7 @@ h5,
 .text-white-opacity-05 {
   color: rgba($white, 0.5);
 }
+
 .text-black-opacity-05 {
   color: rgba($black, 0.5);
 }
@@ -239,17 +276,20 @@ h5,
 .hover-bg-enlarge {
   overflow: hidden;
   position: relative;
+
   @include media-breakpoint-down(md) {
     height: auto !important;
   }
-  > div {
+
+  >div {
     transform: scale(1);
     transition: 0.8s all ease-in-out;
   }
+
   &:hover,
   &:focus,
   &:active {
-    > div {
+    >div {
       transform: scale(1.2);
     }
   }
@@ -266,8 +306,10 @@ h5,
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
   &.overlay {
     position: relative;
+
     &:after {
       position: absolute;
       content: "";
@@ -280,7 +322,8 @@ h5,
       background: rgba(0, 0, 0, 0.7);
     }
   }
-  > .container {
+
+  >.container {
     position: relative;
     z-index: 1;
   }
@@ -308,13 +351,15 @@ h5,
   border-radius: 50%;
   position: relative;
   transition: 0.3s all ease-in-out;
-  > span {
+
+  >span {
     font-size: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-40%, -50%);
   }
+
   &:hover {
     width: 120px;
     height: 120px;
@@ -327,11 +372,13 @@ h5,
 
 .ul-check {
   margin-bottom: 50px;
+
   li {
     position: relative;
     padding-left: 35px;
     margin-bottom: 15px;
     line-height: 1.5;
+
     &:before {
       left: 0;
       font-size: 20px;
@@ -341,6 +388,7 @@ h5,
       position: absolute;
     }
   }
+
   &.white {
     li {
       &:before {
@@ -348,6 +396,7 @@ h5,
       }
     }
   }
+
   &.success {
     li {
       &:before {
@@ -355,6 +404,7 @@ h5,
       }
     }
   }
+
   &.primary {
     li {
       &:before {
@@ -367,6 +417,7 @@ h5,
 .select-wrap,
 .wrap-icon {
   position: relative;
+
   .icon {
     position: absolute;
     right: 10px;
@@ -374,6 +425,7 @@ h5,
     transform: translateY(-50%);
     font-size: 22px;
   }
+
   select {
     appearance: none;
     width: 100%;
@@ -381,19 +433,28 @@ h5,
 }
 
 .visible-hidden {
-    clip: rect(1px, 1px, 1px, 1px);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 .visible-hidden:focus {
-    clip: auto;
-    height: auto;
-    overflow: auto;
-    position: absolute;
-    width: auto;
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: absolute;
+  width: auto;
 }
 
+
+
+
+.img_ {
+
+  float: right;
+  margin-right: 10px;
+  max-width: 350px;
+}
