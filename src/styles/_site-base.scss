@@ -452,9 +452,23 @@ h5,
 
 
 
-img {
+img.right {
 
   float: right;
   margin-right: 10px;
   max-width: 350px;
+}
+
+img.left {
+
+  float: left;
+  margin-right: 10px;
+  max-width: 350px;
+}
+
+img.center {
+
+  float: center;
+  margin-right: 10px;
+  max-width: 600px;
 }

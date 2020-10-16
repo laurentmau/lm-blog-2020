@@ -16,7 +16,8 @@ Sortir du confinement global suppose une capacité d'identifier les nouveaux cas
 
 Cette figure présente la stratégie à adopter lorsqu'un nouveau cas de COVID-19 est identifié.
 
-![image alt text]({{ site.url }}/public/cIdmEQi9Y7eGDfCStk22zw_img_0.png)[[1]](https://www.zotero.org/google-docs/?lUqCzu)
+<img class="center" src="/images/technos-covid-1.png">
+[[1]](https://www.zotero.org/google-docs/?lUqCzu)
 
 Note : détecter les porteurs de la maladie suppose être en mesure de réaliser des tests à grande échelle. Ce document ne traite pas de ce document.
 
