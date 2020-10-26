@@ -9,7 +9,7 @@ layout: layouts/base.njk
   <p class="lead">
     {# by
         {{ author}} #}
-    <time class="postlist-date" datetime="{{ post.date | date('Y-MM-DD') }}">{{ post.date|date("DD MMMM Y", locale) }}</time>
+    <time class="postlist-date" datetime="{{ date | date('Y-MM-DD') }}">{{ date|date("DD MMMM Y", locale) }}</time>
   </p>
 
   <p>
