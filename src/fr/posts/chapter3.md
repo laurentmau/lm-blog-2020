@@ -16,8 +16,6 @@ L'idée de créer AuRorA a germé pendant la crise Covid lors de laquelle nous a
 
 Notre ambition est de s'appuyer sur notre énergie, nos compétences, notre expérience pour accompagner, susciter, amplifier les projets d'innovation des PMEs pour des transitions responsables et résilientes. 
 
-![la méthode 5R](/images/screenshot-2020-11-06-at-11-36-03.png "5r")
-
-Pierre-Emmanuel, Cédric et moi amenons des expériences et de compétences très complémentaires. Mon rôle dans l'équipe est bien sûr de porter le pilier numérique en utilisant mon expérience acquise en menant la transformation numérique de Soitec pendant 8 ans dont L'Usine Nouvelle vient d'en saluer les résultats en remettant à Soitec le prix de [l'usine 2020](https://www.usinenouvelle.com/article/usine-de-l-annee-2020-soitec-modele-pour-l-industrie-des-puces.N1009804) !.
+![la méthode 5R](/images/screenshot-2020-11-06-at-11-36-03.png "5r")Pierre-Emmanuel, Cédric et moi amenons des expériences et de compétences très complémentaires. Mon rôle dans l'équipe est bien sûr de porter le pilier numérique en utilisant mon expérience acquise en menant la transformation numérique de Soitec pendant 8 ans dont L'Usine Nouvelle vient d'en saluer les résultats en remettant à Soitec le prix de [l'usine 2020](https://www.usinenouvelle.com/article/usine-de-l-annee-2020-soitec-modele-pour-l-industrie-des-puces.N1009804) !.
 
 L'aventure ne fait que commencer et reste à écrire, à bientôt pour la suite.
