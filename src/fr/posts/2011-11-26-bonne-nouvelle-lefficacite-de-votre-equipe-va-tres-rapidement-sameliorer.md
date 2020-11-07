@@ -1,11 +1,11 @@
 ---
-title: "l''efficacité de votre équipe va très rapidement s''améliorer!'"
-date: 2011-11-26 19:47:00+00:00
-draft: false
+title: l''efficacité de votre équipe va très rapidement s''améliorer!'
+date: 2011-11-26T19:47:00.000+00:00
+draft: true
 layout: layouts/post.njk
-tags: posts
----
+tags: productivity
 
+---
 Je voudrais partager avec vous un outil que j'ai découvert il ya quelques mois et cela m'a aidé à améliorer considérablement  l'efficacité de mon équipe.  
   
 Le nom de cet outil est "L'échelle des comportements". La personne qui me l'a présenté est [Nicolas Schifarth.](http://www.jbs-coaching.com/nicolaschilfarth.html)  
@@ -44,7 +44,3 @@ Je le fais systématiquement depuis quleques mois, et cela marche !
 [![](http://2.bp.blogspot.com/-DLRBOEhAaFw/TtFBIiGhuLI/AAAAAAABztI/bt-QfzxaD3E/s200/behaviour+scale-en.jpg)
 ](http://2.bp.blogspot.com/-DLRBOEhAaFw/TtFBIiGhuLI/AAAAAAABztI/bt-QfzxaD3E/s1600/behaviour+scale-en.jpg)[![](http://4.bp.blogspot.com/-9TUb-QhIt6M/TtFBJf_Af-I/AAAAAAABztU/V0507-nPWTs/s200/behaviour+scale-enfr.jpg)
 ](http://4.bp.blogspot.com/-9TUb-QhIt6M/TtFBJf_Af-I/AAAAAAABztU/V0507-nPWTs/s1600/behaviour+scale-enfr.jpg)
-
-  
-  
-
