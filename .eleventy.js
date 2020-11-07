@@ -34,7 +34,7 @@ module.exports = function (eleventyConfig) {
     return collection
       .getFilteredByGlob("./src/fr/posts/*.md")
       .filter((_) => livePosts(_))
-      .reverse();
+      );
   });
 
   eleventyConfig.addPlugin(pluginRss);
