@@ -1,6 +1,4 @@
-const {
-  DateTime
-} = require("luxon");
+const { DateTime } = require("luxon");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -9,23 +7,35 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const path = require("path");
 const moment = require("moment");
+const livePosts = (p) => p.date <= now && !p.data.draft;
+const now = new Date();
 
-
-
-const manifestPath = path.resolve(__dirname, "dist", "scripts", "manifest.json");
-const manifest = JSON.parse(fs.readFileSync(manifestPath, {
-  encoding: "utf8"
-}))
+const manifestPath = path.resolve(
+  __dirname,
+  "dist",
+  "scripts",
+  "manifest.json"
+);
+const manifest = JSON.parse(
+  fs.readFileSync(manifestPath, {
+    encoding: "utf8",
+  })
+);
 
 module.exports = function (eleventyConfig) {
-
-  eleventyConfig.addPassthroughCopy('src/images')
+  eleventyConfig.addPassthroughCopy("src/images");
 
   eleventyConfig.addCollection("posts_en", function (collection) {
-    return collection.getFilteredByGlob("./src/en/posts/*.md");
+    return collection
+      .getFilteredByGlob("./src/en/posts/*.md")
+      .filter((_) => livePosts(_))
+      .reverse();
   });
   eleventyConfig.addCollection("posts_fr", function (collection) {
-    return collection.getFilteredByGlob("./src/fr/posts/*.md");
+    return collection
+      .getFilteredByGlob("./src/fr/posts/*.md")
+      .filter((_) => livePosts(_))
+      .reverse();
   });
 
   eleventyConfig.addPlugin(pluginRss);
@@ -36,17 +46,17 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addLayoutAlias("post", "src/layouts/post.njk");
 
-  eleventyConfig.addFilter("readableDate", dateObj => {
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
-      zone: 'utc'
+      zone: "utc",
     }).toFormat("dd LLL yyyy");
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
-      zone: 'utc'
-    }).toFormat('yyyy-LL-dd');
+      zone: "utc",
+    }).toFormat("yyyy-LL-dd");
   });
 
   // Get the first `n` elements of a collection.
@@ -64,16 +74,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   // Add a shortcode for bundled CSS.
   eleventyConfig.addShortcode("bundledCss", function () {
-    return manifest["main.css"] ?
-      `<link href="${manifest["main.css"]}" rel="stylesheet" />` :
-      "";
+    return manifest["main.css"]
+      ? `<link href="${manifest["main.css"]}" rel="stylesheet" />`
+      : "";
   });
 
   // Add a shortcode for bundled JS.
   eleventyConfig.addShortcode("bundledJs", function () {
-    return manifest["main.js"] ?
-      `<script src="${manifest["main.js"]}"></script>` :
-      "";
+    return manifest["main.js"]
+      ? `<script src="${manifest["main.js"]}"></script>`
+      : "";
   });
 
   /* Markdown Overrides */
@@ -99,7 +109,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function (err, browserSync) {
-        const content_404 = fs.readFileSync('dist/404.html');
+        const content_404 = fs.readFileSync("dist/404.html");
 
         browserSync.addMiddleware("*", (req, res) => {
           // Provides the 404 content without redirect.
@@ -109,16 +119,11 @@ module.exports = function (eleventyConfig) {
       },
     },
     ui: false,
-    ghostMode: false
+    ghostMode: false,
   });
 
   return {
-    templateFormats: [
-      "md",
-      "njk",
-      "html",
-      "liquid"
-    ],
+    templateFormats: ["md", "njk", "html", "liquid"],
 
     // If your site lives in a different subdirectory, change this.
     // Leading or trailing slashes are all normalized away, so don’t worry about those.
@@ -139,18 +144,17 @@ module.exports = function (eleventyConfig) {
       input: "src",
       includes: "_includes",
       data: "_data",
-      output: "dist"
+      output: "dist",
     },
     buildTime: new Date(),
 
-
     en: {
       metaTitle: "Title in english",
-      metaDescription: "Description in english"
+      metaDescription: "Description in english",
     },
     fr: {
       metaTitle: "Titre en français",
-      metaDescription: "Description en français"
-    }
+      metaDescription: "Description en français",
+    },
   };
 };
