@@ -12,8 +12,5 @@ fields:
   name: draft
   label: draft
 - type: text
-  name: layout
-  label: layout
-- type: text
   name: tags
   label: tags
