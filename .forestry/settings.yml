@@ -1,0 +1,28 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: src/fr/posts
+  label: posts_fr
+  create: documents
+  match: "**/*"
+- type: directory
+  path: src/en/posts
+  label: posts_en
+  create: documents
+  match: "**/*"
+upload_dir: src/images
+public_path: "/images"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_output_directory: dist
+  install_dependencies_command: npm install
+  preview_docker_image: forestryio/node:12
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: npm run prod
