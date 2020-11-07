@@ -28,8 +28,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("posts_en", function (collection) {
     return collection
       .getFilteredByGlob("./src/en/posts/*.md")
-      .filter((_) => livePosts(_))
-      .reverse();
+      .filter((_) => livePosts(_));
   });
   eleventyConfig.addCollection("posts_fr", function (collection) {
     return collection
