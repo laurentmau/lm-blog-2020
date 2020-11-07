@@ -1,7 +1,7 @@
 ---
 title: l''efficacité de votre équipe va très rapidement s''améliorer!'
 date: 2011-11-26T19:47:00.000+00:00
-draft: true
+draft: false
 layout: layouts/post.njk
 tags: productivity
 
