@@ -33,8 +33,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("posts_fr", function (collection) {
     return collection
       .getFilteredByGlob("./src/fr/posts/*.md")
-      .filter((_) => livePosts(_))
-      );
+      .filter((_) => livePosts(_));
   });
 
   eleventyConfig.addPlugin(pluginRss);
