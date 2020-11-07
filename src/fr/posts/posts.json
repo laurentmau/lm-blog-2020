@@ -1,3 +1,4 @@
 {
-  "permalink": "/{{ page.filePathStem }}/index.html"
+  "permalink": "/{{ page.filePathStem }}/index.html",
+  "layout": "layouts/post.njk"
 }
