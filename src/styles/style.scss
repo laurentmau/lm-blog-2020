@@ -1,11 +1,10 @@
-
 $primary: #6282c2;
 $secondary: #6282c2;
 $body-bg: #fff; //white
 $text-body: #484d52; //gray
 $body-color: $text-body;
 $border-radius: 8px;
-$special: #e94A45 ; // myred
+$special: #e94a45; // myred
 $black: #000;
 $white: #fff;
 $yellow: #fde477;
@@ -17,8 +16,7 @@ $red: #ee3530;
 $light-red: #f1857e;
 $gray: #989898;
 
-$myred: #e94A45;
-
+$myred: #e94a45;
 
 $theme-colors: (
   "special": $special,
@@ -38,26 +36,35 @@ body {
   padding-top: 56px;
 }
 
-
-.post-content
-h1 {  font-size: 2rem;
+.post-content h1 {
+  font-size: 2rem;
 }
-h2 {  font-size: 1.25rem;
+h2 {
+  font-size: 1.25rem;
 }
-h3 {  font-size: 1rem;
+h3 {
+  font-size: 1rem;
 }
-h4 {  font-size: 1rem;
+h4 {
+  font-size: 1rem;
 }
 p {
-      font-weight: 300;
-      color: $black;
-      a {
-        // color: $blue;
-                color: $myred !important;
+  font-weight: 300;
+  color: $black;
+  a {
+    // color: $blue;
+    color: $myred !important;
+  }
+}
+img {
+  display: block;
+  max-width: 80% !important;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  margin: auto;
+}
 
-      }
-    }
-
-.lead { font-size : 0.75rem !important}
-
-
+.lead {
+  font-size: 0.75rem !important;
+}

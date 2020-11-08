@@ -3,15 +3,18 @@
   "version": "5.0.2",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "eleventy:default": "npx eleventy",
+    "eleventy:debug": "DEBUG=* npm run eleventy:default",
     "eleventy:watch": "npx eleventy --watch",
-    "scripts:prod": " webpack --mode production",
-    "scripts:dev": "webpack --mode development --progress",
+    "scripts:prod": "webpack --mode=production",
+    "scripts:dev": "webpack --mode development ",
+    "scripts:watch": "webpack --watch --mode development ",
     "copy": "sudo rm -rf /var/www/html/*;sudo cp -rp dist/* /var/www/html/",
-    "dev": "run-s --print-label   scripts:dev eleventy:default copy",
+    "sync": "sudo ./syncTest.sh",
+    "dev": "run-p  scripts:watch eleventy:watch sync ",
     "my-dev:debug": "DEBUG=* npm run my-dev",
-    "build": "run-s --print-label   scripts:prod eleventy:default copy ",
-    "prod": "run-s --print-label   scripts:prod eleventy:default  "
+    "prod": "ELEVENTY_ENV=production run-s --print-label   scripts:prod eleventy:default "
   },
   "repository": {
     "type": "git",
