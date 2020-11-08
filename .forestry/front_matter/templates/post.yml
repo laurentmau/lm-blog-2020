@@ -14,5 +14,11 @@ fields:
 - type: text
   name: tags
   label: tags
+- name: short
+  type: text
+  config:
+    required: false
+  label: short
+  description: short link
 pages:
 - src/fr/posts/2011-11-26-bonne-nouvelle-lefficacite-de-votre-equipe-va-tres-rapidement-sameliorer.md
