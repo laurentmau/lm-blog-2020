@@ -1,9 +1,10 @@
 ---
 title: L'échelle des comportements
-date: 2011-11-26T19:47:00.000+00:00
+date: 2011-11-26T19:47:00Z
 draft: false
 layout: layouts/post.njk
 tags: productivity
+short: echelle
 
 ---
 Je voudrais partager avec vous un outil que j'ai découvert il ya quelques mois et cela m'a aidé à améliorer considérablement  l'efficacité de mon équipe.
