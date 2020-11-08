@@ -9,7 +9,7 @@ short: echelle
 ---
 Je voudrais partager avec vous un outil que j'ai découvert il ya quelques mois et cela m'a aidé à améliorer considérablement  l'efficacité de mon équipe.
 
-Le nom de cet outil est "L'échelle des comportements". La personne qui me l'a présenté est [Nicolas Schifarth.](http://www.jbs-coaching.com/nicolaschilfarth.html)
+Le nom de cet outil est "L'échelle des comportements". 
 
 Il s'agit d'un document A4 simple qui représente les neuf niveaux de réaction quand quelqu'un est confronté à un problème à résoudre.
 
@@ -25,8 +25,8 @@ Les neuf étapes sont les suivantes:
    Le problème est maintenant là, vous le voyez, quelqu'un vous en a parlé mais la réalité est parfois difficile à admettre, alors la réaction peut être "Qu'est-ce que tu racontes? Il n'y a aucun problème"
 3. **ACCUSER**  
    Maintenant, vous savez qu'il y a un problème, vous pouvez le voir, vous pouvez sentir les effets. Quoi de plus facile que d'accuser quelqu'un ? "Ce n'est pas de ma faute..."
-4. **SE JUSTIFIER  
-   \**Ok, il y a un problème, vous faites partie de celui-ci (parce que vous avez fait une erreur ou parce que vous ne l'avait simplement pas prévenu), le prochain essai est d'expliquer pourquoi vous avez échoué et de justifier l'échec.
+4. **SE JUSTIFIER**  
+   Ok, il y a un problème, vous faites partie de celui-ci (parce que vous avez fait une erreur ou parce que vous ne l'avait simplement pas prévenu), le prochain essai est d'expliquer pourquoi vous avez échoué et de justifier l'échec.
 5. **ASSUMER**  
    Voila  le premier niveau productif !  
    Il y a un problème, il vous suffit admettre qu'il existe!  
