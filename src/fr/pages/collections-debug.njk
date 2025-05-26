@@ -6,12 +6,13 @@ permalink: /fr/debug/collections/
 
 <h1>🛠 Debug des collections Eleventy</h1>
 
-{% for collectionName in collections | keys %}
-  <h2>{{ collectionName }}</h2>
-  <p>Nombre d’items : {{ collections[collectionName].length }}</p>
+{% for name in ["posts_fr", "posts_en", "tagList", "all", "allImages"] %}
+  <h2>{{ name }}</h2>
+  {% set items = collections[name] %}
+  <p>Nombre d’items : {{ items.length }}</p>
 
   <ul>
-    {% for item in collections[collectionName] %}
+    {% for item in items %}
       <li>
         <code>{{ item.inputPath }}</code><br />
         URL : {{ item.url }}<br />
@@ -22,4 +23,5 @@ permalink: /fr/debug/collections/
     {% endfor %}
   </ul>
 {% endfor %}
+
 
