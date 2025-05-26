@@ -1,6 +1,6 @@
 ---
 title: "45.205"
-layout: layouts/page.njk
+layout: layouts/base.njk
 permalink: /fr/voyages-a-pied/45.205/
 ---
 
