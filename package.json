@@ -14,7 +14,8 @@
     "sync": "sudo ./syncTest.sh",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider run-p scripts:watch eleventy:watch",
     "my-dev:debug": "DEBUG=* npm run my-dev",
-    "prod": "NODE_OPTIONS=--openssl-legacy-provider ELEVENTY_ENV=production run-s --print-label scripts:prod eleventy:default"
+    "prod": "ELEVENTY_ENV=production run-s --print-label scripts:prod eleventy:default"
+
   },
   "repository": {
     "type": "git",
