@@ -9,18 +9,26 @@ TEXTE
 
 
 IMAGES
+
 {% if imgFolder %}
-IMGFOLDER
+  <p><strong>imgFolder:</strong> {{ imgFolder }}</p>
+  {% set folderPath = imgFolder %}
+  <p><strong>folderPath utilisé :</strong> {{ folderPath }}</p>
+
   <div class="etape-images">
-    {% set folderPath = imgFolder %}
     {% for image in collections.allImages %}
+      <p>
+        image.inputPath: {{ image.inputPath }}<br />
+        outputPath: {{ image.outputPath }}<br />
+        match: {{ image.inputPath.startsWith(folderPath) }}
+      </p>
       {% if image.inputPath.startsWith(folderPath) %}
         <img src="{{ image.outputPath | url }}" alt="Image de l'étape">
       {% endif %}
     {% endfor %}
   </div>
 {% else %}
-NO IMGFOLDER
+  <p><strong>imgFolder non défini</strong></p>
 {% endif %}
 
 
