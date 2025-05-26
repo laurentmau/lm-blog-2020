@@ -5,6 +5,7 @@ tags:
 layout: layouts/voyage.njk
 eleventyExcludeFromCollections: true
 permalink: /fr/voyages-a-pied/45.205/jour-01/
+imgFolder: /images/voyages-a-pied/45.205/jour-01-img
 ---
 
 📅 **Date** : 5 juillet 2022  
@@ -13,7 +14,7 @@ permalink: /fr/voyages-a-pied/45.205/jour-01/
 
 ---
 
-### C’est parti !
+### C’est parti !!!
 
 Cette première étape était en terrain connu : sortie de Grenoble par les quais des pizzas, puis marche le long de l’Isère en suivant la piste cyclable, puis sur la digue.
 
@@ -27,4 +28,4 @@ Pour cette première nuit, j’ai planté ma tente au bord du chemin sur la digu
 
 ---
 
-![Départ](IMG_20220705_091928_640.jpg)
+

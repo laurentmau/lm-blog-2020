@@ -1,9 +1,26 @@
 {% extends "layouts/base.njk" %}
 
+
+TEXTE
 {% block content %}
 <article class="voyage-etape">
   <h1>{{ title }}</h1>
   {{ content | safe }}
+
+
+IMAGES
+{% if imgFolder %}
+  <div class="etape-images">
+    {% set folderPath = '.' + imgFolder %}
+    {% for image in collections.allImages %}
+      {% if image.inputPath.startsWith(folderPath) %}
+        <img src="{{ image.outputPath | url }}" alt="Image de l'étape">
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+
 
   <nav class="etape-nav">
     {% if pagination.previous %}

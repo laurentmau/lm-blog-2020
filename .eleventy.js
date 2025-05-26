@@ -10,17 +10,15 @@ const moment = require("moment");
 const livePosts = (p) => p.date <= now && !p.data.draft;
 const now = new Date();
 
-const manifestPath = path.resolve(
-  __dirname,
-  "dist",
-  "scripts",
-  "manifest.json"
-);
-const manifest = JSON.parse(
-  fs.readFileSync(manifestPath, {
-    encoding: "utf8",
-  })
-);
+const manifestPath = path.resolve(__dirname, "dist", "scripts", "manifest.json");
+let manifest = {};
+
+try {
+  manifest = JSON.parse(fs.readFileSync(manifestPath, { encoding: "utf8" }));
+} catch (e) {
+  console.warn("⚠️  manifest.json introuvable — probablement en développement. On continue sans.");
+}
+
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images");
