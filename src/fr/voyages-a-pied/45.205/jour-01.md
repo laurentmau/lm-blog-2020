@@ -2,9 +2,9 @@
 title: Jour 01 – La Tronche → Saint-Quentin-sur-Isère
 date: 2022-07-05
 tags: 
-layout: layouts/post.njk
+layout: layouts/voyage.njk
 eleventyExcludeFromCollections: true
-permalink: /fr/voyages-a-pied/45.205/jour-01
+permalink: /fr/voyages-a-pied/45.205/jour-01/
 ---
 
 📅 **Date** : 5 juillet 2022  
