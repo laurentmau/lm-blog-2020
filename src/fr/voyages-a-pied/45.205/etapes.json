@@ -1,0 +1,11 @@
+{
+  "pagination": {
+    "data": "collections.45205",
+    "size": 1,
+    "alias": "etape"
+  },
+  "permalink": "voyages-a-pied/45205/{{ etape.fileSlug }}/index.html",
+  "layout": "layouts/voyage.njk",
+  "tags": "45205"
+}
+
