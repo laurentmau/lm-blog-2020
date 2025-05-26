@@ -12,7 +12,7 @@ IMAGES
 {% if imgFolder %}
 IMGFOLDER
   <div class="etape-images">
-    {% set folderPath = '.' + imgFolder %}
+    {% set folderPath = imgFolder %}
     {% for image in collections.allImages %}
       {% if image.inputPath.startsWith(folderPath) %}
         <img src="{{ image.outputPath | url }}" alt="Image de l'étape">
