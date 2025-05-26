@@ -1,37 +1,21 @@
 {% extends "layouts/base.njk" %}
 
-
-TEXTE
 {% block content %}
 <article class="voyage-etape">
   <h1>{{ title }}</h1>
   {{ content | safe }}
 
-
-IMAGES
-
-{% if imgFolder %}
-  <p><strong>imgFolder:</strong> {{ imgFolder }}</p>
-  {% set folderPath = imgFolder %}
-  <p><strong>folderPath utilisé :</strong> {{ folderPath }}</p>
-
-  <div class="etape-images">
-    {% for image in collections.allImages %}
-      <p>
-        image.inputPath: {{ image.inputPath }}<br />
-        outputPath: {{ image.outputPath }}<br />
-        match: {{ image.inputPath.startsWith(folderPath) }}
-      </p>
-      {% if image.inputPath.startsWith(folderPath) %}
-        <img src="{{ image.outputPath | url }}" alt="Image de l'étape">
-      {% endif %}
-    {% endfor %}
-  </div>
-{% else %}
-  <p><strong>imgFolder non défini</strong></p>
-{% endif %}
-
-
+  {# ==== IMAGES AUTOMATIQUES ==== #}
+  {% if imgFolder %}
+    {% set pathPrefix = "src" + imgFolder %}
+    <div class="etape-images">
+      {% for image in collections.imagesVoyage %}
+        {% if image.inputPath.startsWith(pathPrefix) %}
+          <img src="{{ image.url }}" alt="Image de l'étape">
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
 
   <nav class="etape-nav">
     {% if pagination.previous %}
@@ -43,5 +27,4 @@ IMAGES
   </nav>
 </article>
 {% endblock %}
-
 

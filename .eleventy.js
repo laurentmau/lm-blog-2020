@@ -21,17 +21,29 @@ try {
 
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/images");
 
-const fg = require("fast-glob");
 
-eleventyConfig.addCollection("allImages", () => {
-  const files = fg.sync("src/images/**/*.{jpg,jpeg,png,webp,gif}");
-  return files.map(f => ({
-    inputPath: f,
-    publicPath: f.replace(/^src/, ""), // → /images/...
+const path = require("path");
+
+eleventyConfig.addCollection("imagesVoyage", function (collectionApi) {
+  const imageGlob = "src/images/voyages-a-pied/**/*.@(jpg|jpeg|png|webp)";
+  const fg = require("fast-glob");
+  const files = fg.sync(imageGlob);
+  return files.map(file => ({
+    inputPath: file,
+    outputPath: file.replace(/^src\//, ""),
+    url: "/" + file.replace(/^src\//, ""),
   }));
 });
+
+
+
+  eleventyConfig.addPassthroughCopy("src/images");
+
+
+  eleventyConfig.addCollection("all", function(collectionApi) {
+    return collectionApi.getAll();
+  });
 
   eleventyConfig.addCollection("posts_en", function (collection) {
     return collection
