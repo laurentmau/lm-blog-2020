@@ -10,6 +10,7 @@ TEXTE
 
 IMAGES
 {% if imgFolder %}
+IMGFOLDER
   <div class="etape-images">
     {% set folderPath = '.' + imgFolder %}
     {% for image in collections.allImages %}
@@ -18,6 +19,8 @@ IMAGES
       {% endif %}
     {% endfor %}
   </div>
+{% else %}
+NO IMGFOLDER
 {% endif %}
 
 
