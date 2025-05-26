@@ -27,4 +27,4 @@ Pour cette première nuit, j’ai planté ma tente au bord du chemin sur la digu
 
 ---
 
-![Départ](./jour-01/IMG_20220705_091928_640.jpg)
+![Départ](IMG_20220705_091928_640.jpg)
