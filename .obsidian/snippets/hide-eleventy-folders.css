@@ -1,0 +1,14 @@
+/* Masquer certains dossiers dans le file explorer */
+.nav-folder-title[data-path="_site"],
+.nav-folder-title[data-path="src/_data"],
+.nav-folder-title[data-path="src/_includes"],
+.nav-folder-title[data-path="src/migration"],
+.nav-folder-title[data-path="migration"],
+.nav-folder-title[data-path="src/scripts"],
+.nav-folder-title[data-path="Templates"],
+.nav-folder-title[data-path="src/styles"],
+.nav-folder-title[data-path="src/_11ty"] {
+  display: none !important;
+}
+
+

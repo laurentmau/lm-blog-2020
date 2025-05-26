@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "type": "folder",
+      "ctime": 1747890984502,
+      "path": "src/en",
+      "title": "en"
+    },
+    {
+      "type": "folder",
+      "ctime": 1747890998851,
+      "path": "src/fr",
+      "title": "fr"
+    }
+  ]
+}
