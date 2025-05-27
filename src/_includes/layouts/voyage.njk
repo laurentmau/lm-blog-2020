@@ -6,6 +6,8 @@
   {{ content | safe }}
 
   {# ==== IMAGES AUTOMATIQUES ==== #}
+PAGINATION
+<pre>{{ pagination | dump }}</pre>
   {% if imgFolder %}
     {% set pathPrefix = "src" + imgFolder %}
     <div class="etape-images">

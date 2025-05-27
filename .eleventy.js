@@ -36,10 +36,26 @@ eleventyConfig.addCollection("imagesVoyage", function (collectionApi) {
   }));
 });
 
-  eleventyConfig.addCollection("voyage", function (collectionApi) {
-  return collectionApi
-    .getFilteredByGlob("src/fr/voyages-a-pied/45.205/*.md")
-    .sort((a, b) => a.date - b.date); 
+
+	  const fs = require("fs");
+
+eleventyConfig.addCollection("voyages", function (collectionApi) {
+  const basePath = "src/fr/voyages-a-pied";
+
+  const parcoursDirs = fs.readdirSync(basePath).filter(file =>
+    fs.statSync(path.join(basePath, file)).isDirectory()
+  );
+
+  const allCollections = {};
+
+  parcoursDirs.forEach(dir => {
+    const items = collectionApi
+      .getFilteredByGlob(`${basePath}/${dir}/jour-*.md`)
+      .sort((a, b) => a.date - b.date);
+    allCollections[dir] = items;
+  });
+
+  return allCollections;
 });
 
 

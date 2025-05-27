@@ -1,0 +1,12 @@
+
+---
+layout: layouts/base.njk
+title: Debug voyage
+---
+
+<ul>
+  {% for item in collections.voyages %}
+    <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+  {% endfor %}
+</ul>
+

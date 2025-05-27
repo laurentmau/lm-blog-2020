@@ -2,13 +2,7 @@
 title: Jour 02 — Saint-Quentin-sur-Isère à Cognin-les-Gorges
 date: 2022-07-06
 tags: 
-layout: layouts/voyage.njk
-permalink: /fr/voyages-a-pied/45.205/jour-02/
 imgFolder: /images/voyages-a-pied/45.205/jour-02
-pagination:
-  data: collections.voyage
-  size: 1
-  alias: etape
 ---
 
 📅 **Date** : 6 juillet 2022  
