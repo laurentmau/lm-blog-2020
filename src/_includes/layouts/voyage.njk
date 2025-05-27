@@ -1,34 +1,26 @@
 <!-- DEBUG: voyage.njk utilisé -->
+<body style="font-family: sans-serif; padding: 2rem;">
 
-{% extends "layouts/base.njk" %}
+<p style="color: red;">⚠️ Layout voyage.njk activé</p>
 
-{% block content %}
+<h1>TEST voyage.njk</h1>
+
 <article class="voyage-etape">
-  <h1>{{ etape.data.title }}</h1>
-  {{ etape.templateContent | safe }}
+  <h2>{{ etape.data.title }}</h2>
 
-  {# ==== IMAGES AUTOMATIQUES ==== #}
-  {% if etape.data.imgFolder %}
-    {% set pathPrefix = "src" + etape.data.imgFolder %}
-    <div class="etape-images">
-      {% for image in collections.imagesVoyage %}
-        {% if image.inputPath.startsWith(pathPrefix) %}
-          <img src="{{ image.url }}" alt="Image de l'étape">
-        {% endif %}
-      {% endfor %}
-    </div>
-  {% endif %}
+  <div class="content">
+    {{ etape.templateContent | safe }}
+  </div>
 
-  <nav class="etape-nav">
+  <nav class="etape-nav" style="margin-top: 2rem;">
     {% if pagination.previous %}
       <a href="{{ pagination.previous.url }}">← {{ pagination.previous.data.title }}</a>
     {% endif %}
     {% if pagination.next %}
-      <a href="{{ pagination.next.url }}">{{ pagination.next.data.title }} →</a>
+      <a href="{{ pagination.next.url }}" style="margin-left: 1rem;">{{ pagination.next.data.title }} →</a>
     {% endif %}
   </nav>
 </article>
-{% endblock %}
 
+</body>
 <!-- FIN voyage.njk -->
-
