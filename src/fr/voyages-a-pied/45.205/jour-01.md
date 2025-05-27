@@ -6,6 +6,10 @@ layout: layouts/voyage.njk
 eleventyExcludeFromCollections: true
 permalink: /fr/voyages-a-pied/45.205/jour-01/
 imgFolder: /images/voyages-a-pied/45.205/jour-01-img
+pagination:
+  data: collections.voyage
+  size: 1
+  alias: etape
 ---
 
 📅 **Date** : 5 juillet 2022  

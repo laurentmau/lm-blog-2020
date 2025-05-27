@@ -36,6 +36,12 @@ eleventyConfig.addCollection("imagesVoyage", function (collectionApi) {
   }));
 });
 
+  eleventyConfig.addCollection("voyage", function (collectionApi) {
+  return collectionApi
+    .getFilteredByGlob("src/fr/voyages-a-pied/45.205/*.md")
+    .sort((a, b) => a.date - b.date); 
+});
+
 
 
   eleventyConfig.addPassthroughCopy("src/images");
