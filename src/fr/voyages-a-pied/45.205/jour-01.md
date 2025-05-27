@@ -14,7 +14,7 @@ imgFolder: /images/voyages-a-pied/45.205/jour-01-img
 
 ---
 
-### C’est parti !!!
+### C’est parti !
 
 Cette première étape était en terrain connu : sortie de Grenoble par les quais des pizzas, puis marche le long de l’Isère en suivant la piste cyclable, puis sur la digue.
 
