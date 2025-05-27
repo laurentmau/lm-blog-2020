@@ -9,3 +9,4 @@ permalink: /fr/voyages-a-pied/45.205/
 ## Journal de marche
 
 - [Jour 01 – La Tronche → Saint-Quentin-sur-Isère](./jour-01/)
+-  [Jour 02 — Saint-Quentin-sur-Isère à Cognin-les-Gorges](./jour-02/)
