@@ -1,8 +1,6 @@
 ---
 title: Jour 02 — Saint-Quentin-sur-Isère à Cognin-les-Gorges
 date: 2022-07-06
-tags: 
-imgFolder: /images/voyages-a-pied/45.205/jour-02
 ---
 
 📅 **Date** : 6 juillet 2022  
@@ -10,7 +8,7 @@ imgFolder: /images/voyages-a-pied/45.205/jour-02
 ⬆️ **Dénivelé** : + 190 m 
 
 ---
-
+!!!
 
 Je suis ce soir dans un camping.  
 La journée a été très chaude et a commencé par 5 km de détour pour aller boire un café et acheter à manger, puis 10 km sur la digue monotone (à droite l'Isère et l'autoroute, à gauche des champs cultivés de céréales puis de noyers).

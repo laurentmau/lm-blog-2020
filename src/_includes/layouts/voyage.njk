@@ -1,15 +1,15 @@
+<!-- DEBUG: voyage.njk utilisé -->
+
 {% extends "layouts/base.njk" %}
 
 {% block content %}
 <article class="voyage-etape">
-  <h1>{{ title }}</h1>
-  {{ content | safe }}
+  <h1>{{ etape.data.title }}</h1>
+  {{ etape.templateContent | safe }}
 
   {# ==== IMAGES AUTOMATIQUES ==== #}
-PAGINATION
-<pre>{{ pagination | dump }}</pre>
-  {% if imgFolder %}
-    {% set pathPrefix = "src" + imgFolder %}
+  {% if etape.data.imgFolder %}
+    {% set pathPrefix = "src" + etape.data.imgFolder %}
     <div class="etape-images">
       {% for image in collections.imagesVoyage %}
         {% if image.inputPath.startsWith(pathPrefix) %}
@@ -29,4 +29,6 @@ PAGINATION
   </nav>
 </article>
 {% endblock %}
+
+<!-- FIN voyage.njk -->
 
