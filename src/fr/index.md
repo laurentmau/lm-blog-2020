@@ -15,17 +15,16 @@ Je suis basé à Grenoble. J’interviens partout en France (et parfois au-delà
 
 ---
 
-## Ce que je fais
+## Je suis associé et CTO de  trois projets
 
-- 🎤 **Conférences et interventions** : transformation numérique, IA, enjeux sociétaux.
-- 🧭 **Accompagnement de dirigeants** : compréhension stratégique, arbitrages, choix d’outils.
-- 🧠 **Réflexion & transmission** : articles, notes, ressources utiles sur le numérique et l’IA.
+- **Watsy pour Atipik Solutions** – outil de diagnostic de performance pour l’industrie
+-  **BikeSlot** – solution de sécurisation pour la mobilité urbaine
+- **Uxium** – plateforme web que j'ai créée
+---
+## Je propose des accompagnements ponctuels
 
-Actuellement, j’interviens  en tant que **CTO** sur trois projets :
-
-- 🔧 **Watsy pour Atipik Solutions** – outil de diagnostic de performance pour l’industrie
-- 🚲 **BikeSlot** – solution de sécurisation pour la mobilité urbaine
-- 🧩 **Uxium** – plateforme web que j'ai créée
+ - **Conférences et interventions** : transformation numérique, IA, enjeux sociétaux.
+ - **Accompagnement de dirigeants** : compréhension stratégique, arbitrages, choix d’outils.
 
 ---
 

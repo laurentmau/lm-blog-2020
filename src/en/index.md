@@ -4,33 +4,31 @@ title: Home
 translationKey: homepage
 ---
 
-### Helping you understand and act on the challenges of digital transformation
+## **Helping you understand and act on digital transformation**
 
-With 30 years of experience in industrial IT, I now help organizations understand what digital transformation really means – and how to act on it.
+With 30 years of experience in the IT sector, I now use my background to help organizations grasp the impact of digital technologies—and how to respond effectively.
 
-I founded **WELIBO**, a company that promotes a form of digital innovation that is both community-driven and locally rooted.
+I founded **WELIBO**, a company dedicated to promoting a digital world that brings people together and is rooted in local communities.
 
-I'm based in Grenoble, France, and work throughout the country (and occasionally abroad).
-
----
-
-### What I do
-
-- 🎤 **Talks and keynotes**: digital transformation, AI, social impact.
-- 🧭 **Executive support**: strategic understanding, decision-making, technology choices.
-- 🧠 **Writing & sharing**: articles, notes, and curated resources on digital and AI topics.
-
-I currently serve as **CTO** on three active projects:
-
-- 🔧 **Watsy for Atipik Solutions** – an industrial performance diagnostic tool  
-- 🚲 **BikeSlot** – a smart solution for urban bike security  
-- 🧩 **Uxium** – a civic engagement web platform I created
+I'm based in Grenoble, and I work across France and occasionally abroad.
 
 ---
 
-### Want to get in touch?
+## **I am a partner and CTO in three ventures**
 
-📩 laurent<at>weli<point>bo
+- **Watsy (for Atipik Solutions)** – a performance diagnostics tool for industry  
+- **BikeSlot** – a security solution for urban mobility  
+- **Uxium** – a civic engagement web platform I created
 
 ---
 
+## **I offer targeted support**
+
+- **Talks and public speaking**: digital transformation, AI, and societal issues  
+- **Executive guidance**: strategic understanding, decision-making, and technology choices
+
+---
+
+## **Want to get in touch?**
+
+`📩 laurent<at>weli<point>bo`
