@@ -1,6 +1,4 @@
 {
   "cssTheme": "AnuPpuccin",
-  "enabledCssSnippets": [
-    "hide-eleventy-folders"
-  ]
+  "enabledCssSnippets": []
 }

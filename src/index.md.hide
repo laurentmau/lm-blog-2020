@@ -1,0 +1,7 @@
+---
+permalink: index.html
+layout: layouts/base.njk
+---
+
+<meta http-equiv="refresh" content="0; url=/fr/">
+<p>Redirection vers <a href="/fr/">la version française</a>.</p>
