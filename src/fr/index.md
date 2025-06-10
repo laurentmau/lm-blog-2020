@@ -8,6 +8,7 @@ translationKey: homepage
 ## **J’entreprends dans le numérique avec une exigence : être utile, accessible et durable**
 
 Entrepreneur, associé et CTO, je porte des projets numériques qui ont du sens, et j’accompagne les organisations qui veulent comprendre les transformations en cours pour mieux agir.
+Mon parcours s’appuie sur 30 ans d’expérience dans le numérique, où j’ai occupé des rôles variés : développeur, chef de projet, responsable commercial, DSI et membre de COMEX.
 
 J’ai fondé **WELIBO** dans cette optique, pour bâtir un numérique concret, engagé, et humain.
 
