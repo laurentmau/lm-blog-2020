@@ -4,31 +4,37 @@ title: Home
 translationKey: homepage
 ---
 
-## **Helping you understand and act on digital transformation**
+## **I build digital solutions with one guiding principle: to be useful, accessible, and sustainable**
 
-With 30 years of experience in the IT sector, I now use my background to help organizations grasp the impact of digital technologies—and how to respond effectively.
+As an entrepreneur, partner and CTO, I lead meaningful digital projects and help organizations better understand ongoing transformations so they can take effective action.  
+My background spans 30 years in the tech industry, with roles ranging from developer and project manager to sales director, CIO, and executive committee member.
 
-I founded **WELIBO**, a company dedicated to promoting a digital world that brings people together and is rooted in local communities.
-
-I'm based in Grenoble, and I work across France and occasionally abroad.
-
----
-
-## **I am a partner and CTO in three ventures**
-
-- **Watsy (for Atipik Solutions)** – a performance diagnostics tool for industry  
-- **BikeSlot** – a security solution for urban mobility  
-- **Uxium** – a civic engagement web platform I created
+Based in Grenoble, I work across France (and sometimes beyond).
 
 ---
 
-## **I offer targeted support**
+## I’m CTO and partner at **Atipik Solutions**
 
-- **Talks and public speaking**: digital transformation, AI, and societal issues  
-- **Executive guidance**: strategic understanding, decision-making, and technology choices
+Most of my time is dedicated to **Watsy**, the platform developed by Atipik Solutions.  
+Watsy turns shop-floor data into **practical performance levers** for industrial players.  
+It’s a powerful tool designed for frontline teams, helping them make losses visible and drive improvement actions.
 
 ---
 
-## **Want to get in touch?**
+## Other projects
 
-`📩 laurent<at>weli<point>bo`
+- **BikeSlot** – a smart parking solution for urban mobility  
+- **Uxium** – a minimalist website platform I built for simplicity and autonomy
+
+---
+
+## Occasional contributions
+
+- **Talks and presentations** – AI, digital transformation  
+- **Executive advisory** – strategic understanding, decision-making, tool selection
+
+---
+
+## Let’s talk?
+
+📩 laurent<at>weli<point>bo
