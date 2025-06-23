@@ -38,4 +38,4 @@ C’est un outil puissant au service des équipes de terrain, conçu pour rendre
 
 ## Envie d’échanger ?
 
-📩 laurent<at>weli<point>bo
+📩 laurent&lt;at&gt;weli&lt;point&gt;bo
