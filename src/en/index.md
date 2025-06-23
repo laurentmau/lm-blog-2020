@@ -37,4 +37,4 @@ It’s a powerful tool designed for frontline teams, helping them make losses vi
 
 ## Let’s talk?
 
-📩 laurent&lt;at&gt;weli&lt;point&gt;bo
+📩 laurent AT weli POINT bo
