@@ -38,4 +38,6 @@ C’est un outil puissant au service des équipes de terrain, conçu pour rendre
 
 ## Envie d’échanger ?
 
-📩 laurent&lt;at&gt;weli&lt;point&gt;bo
+Vous pouvez me contacter pour toute question, prise de contact ou demande de prestation  :  
+📩 laurent&lt;at&gt;weli&lt;point&gt;bo  
+🔗 [Mon profil LinkedIn](https://www.linkedin.com/in/laurentmaumet/)
