@@ -37,4 +37,6 @@ It’s a powerful tool designed for frontline teams, helping them make losses vi
 
 ## Let’s talk?
 
-📩 laurent&lt;at&gt;weli&lt;point&gt;bo
+You can contact me for any question, introduction, or service request:  
+📩 laurent&lt;at&gt;weli&lt;point&gt;bo  
+🔗 [LinkedIn](https://www.linkedin.com/in/laurentmaumet/)
