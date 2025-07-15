@@ -21,6 +21,7 @@ try {
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy({ "src/wp-content/uploads": "wp-content/uploads" });
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
 
