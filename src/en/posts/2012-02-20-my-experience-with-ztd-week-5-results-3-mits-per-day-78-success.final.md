@@ -32,8 +32,6 @@ Here are the results:
 
 ### What are my conclusions?
 
-
-
   * 14/18  is a better  result compare to last week and is my best result ever!
   * As decided last week, I've improved my routine, and I've defined the 3 MITs  before starting my day, everyday.
   * defining MITs everyday really helped me to be (at least feel) efficient !

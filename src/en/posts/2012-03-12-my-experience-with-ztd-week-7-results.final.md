@@ -34,7 +34,8 @@ Here are the results:
 | **Total**     | Every day    | **9/18**      |                |
 
 
-### What are my conclusions?Next week I'll not try to implement any new routine, but just have better result on the emails !**
+### What are my conclusions?
+Next week I'll not try to implement any new routine, but just have better result on the emails !**
 
 Results next week ...
 

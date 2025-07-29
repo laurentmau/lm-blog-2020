@@ -34,7 +34,8 @@ Here are the results:
 | **Total**     | 4/5 days     | **11/18**     |                |
 
 
-### What are my conclusions?Next week I'll not try to implement any new routine, but I'll start again to define 3 MITs, and consider email as a fourth one.**
+### What are my conclusions?
+Next week I'll not try to implement any new routine, but I'll start again to define 3 MITs, and consider email as a fourth one.**
 
 Results next week ...
 

@@ -30,7 +30,8 @@ Here are the results:
 | **Total**       | **Every day**        | **7/18 (39%)**     |
 
 
-### What are my conclusions?Starting this week, I'll start to implement a new routine. **
+### What are my conclusions?
+Starting this week, I'll start to implement a new routine. 
 **The objective will be to come back under control with emails. I'll manage emails to stay inbox 0. **
 **To achieve this, the new habbit will be to check emails daily for 30 minutes.**
 
