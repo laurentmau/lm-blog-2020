@@ -1,5 +1,5 @@
 ---
-title: "39 % success !'"
+title: "My experience with ZTD week 6 : 39 % success !"
 date: 2012-03-06 06:37:31+00:00
 draft: false
 layout: layouts/post.njk

@@ -1,5 +1,5 @@
 ---
-title: "Week #1 results'"
+title: My experience with ZTD week 1
 date: 2012-01-22 15:59:24+00:00
 draft: false
 layout: layouts/post.njk

@@ -1,5 +1,5 @@
 ---
-title: "59 % success !'"
+title: "My experience with ZTD week 4 : 59 % success !"
 date: 2012-02-12 21:15:54+00:00
 draft: false
 layout: layouts/post.njk
@@ -16,8 +16,6 @@ As a reminder, the first habit I've decided to implement is to define every morn
 During week #1, the success rate has been[ 52 % (11/21)](http://laurentmaumet.com/english/my-experience-with-ztd-week-1-results/) , during week #2, it has been [47% (9/19)](http://laurentmaumet.com/english/my-experience-with-ztd-week-2-results-3-mits-per-day-43-success/), and during week #3, a total failure ([6%](http://laurentmaumet.com/english/my-experience-with-ztd-week-3-results-3-mits-per-day-6-success-94-failure/))...
 
 Here're the results of week #4 :
-
-
 
 
 
@@ -40,6 +38,3 @@ Here're the results of week #4 :
 
 **For the new coming week, my objective is to continue the implementation of this new habit, with a better result. If the result is there, it will be time to implement a new habbit !**
 
-
-[![Enhanced by Zemanta](http://img.zemanta.com/zemified_a.png?x-id=caa2cc0b-52c9-45f1-aea4-44d6e4357647)
-](http://www.zemanta.com/)
