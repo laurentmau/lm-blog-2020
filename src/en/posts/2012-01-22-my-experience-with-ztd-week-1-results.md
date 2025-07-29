@@ -16,20 +16,21 @@ This is the feedback after 1 week.
 For this first week, I've decided to implement 1 new habit : 3 MITs.
 The habit is simple : at the beginning of the week, and then every morning, I'll list the 3 MITs (Most Important Topics) that I want to achieve during the day (or the week).
 
-Here are the results :
+Here are the results:
 
-| Day            | Did I define 3 MITs? | How many achieved? |
-|----------------|----------------------|---------------------|
-| Week           | Yes                  | 2/3                 |
-| January 16th   | Yes                  | 3/3                 |
-| January 17th   | Yes                  | 1/3                 |
-| January 18th   | Yes (4)              | 2/4                 |
-| January 19th   | Yes                  | 1/3                 |
-| January 20th   | Yes                  | 2/4                 |
-| **Total**      | **Yes every day**    | **11/21**           |
+| Day           | Did I define 3 MITs?  | How many achieved? |
+|:-------------:|:---------------------:|:------------------:|
+| Week          | Yes                   | 2/3                |
+| January 16th  | Yes                   | 3/3                |
+| January 17th  | Yes                   | 1/3                |
+| January 18th  | Yes (4)               | 2/4                |
+| January 19th  | Yes                   | 1/3                |
+| January 20th  | Yes                   | 2/4                |
+| **Total**     | **Yes every day**     | **11/21**          |
 
 
-** What are  my conclusions ?**
+### What are my conclusions?
+
 
 
 
@@ -42,3 +43,7 @@ Here are the results :
 
 
 ps : why did I put a bonsai here ? Because I like bonsai's !
+
+
+[![Enhanced by Zemanta](http://img.zemanta.com/zemified_a.png?x-id=7568cb67-e7fd-479c-bf5f-541336505d32)
+](http://www.zemanta.com/)
