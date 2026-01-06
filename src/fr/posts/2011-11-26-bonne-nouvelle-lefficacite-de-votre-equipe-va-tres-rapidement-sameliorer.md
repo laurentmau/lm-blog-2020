@@ -5,7 +5,6 @@ draft: false
 layout: layouts/post.njk
 tags: productivity
 short: echelle
-
 ---
 Je voudrais partager avec vous un outil que j'ai découvert il ya quelques mois et cela m'a aidé à améliorer considérablement  l'efficacité de mon équipe.
 
