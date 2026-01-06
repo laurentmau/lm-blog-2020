@@ -1,5 +1,5 @@
 ---
-title: A Arrêtons de citer Gutenberg, regardons plutôt Christophe Plantin
+title: Arrêtons de citer Gutenberg, regardons plutôt Christophe Plantin
 date: 2026-01-04T19:47:00.000+00:00
 draft: false
 layout: layouts/post.njk
@@ -53,21 +53,20 @@ La Bible polyglotte est à la fois une prouesse technique et une démonstration 
 Ce privilège crée une douve stratégique :
 
 - volumes garantis,
-    
 - revenus récurrents,
-    
 - protection contre la concurrence.
-    
 
 Le paysage actuel de l’IA suit une dynamique comparable. Les acteurs dominants ne cherchent pas seulement à innover : ils cherchent à devenir l’infrastructure par défaut des grandes organisations, des écosystèmes économiques et, dans certains cas, des États. Partenariats industriels, intégration dans les chaînes de valeur, participation aux cadres de régulation et accords avec de grands acteurs privés : la technologie s’adosse à des formes de pouvoir économique et institutionnel.
 
-# Le risque du pari faustien
+# Le piège de la dépendance : Grandir ou rester libre ?
 
-L’histoire de Plantin contient cependant un avertissement.
+Mais l'histoire de Plantin nous enseigne une dernière leçon cruciale sur la fragilité des géants.
 
-Cette stratégie industrielle et politique a un coût. En dépendant fortement du roi d’Espagne, Plantin subit retards de paiement et fragilité financière. La puissance acquise s’accompagne d’une perte d’autonomie.
+Pour financer ses 22 presses et ses projets ambitieux, Plantin s'est mis à la merci de son principal financeur, le Roi d'Espagne. Une position dangereuse : quand le Roi payait en retard, tout l'empire de Plantin vacillait, manquant de peu la faillite.
 
-Les acteurs contemporains de l’IA se trouvent dans une situation structurellement similaire. L’accès aux infrastructures les plus coûteuses suppose des alliances profondes avec les grands fournisseurs d’infrastructures — cloud, semi-conducteurs, énergie, réseaux — et, plus largement, avec les écosystèmes économiques qui les contrôlent. La capacité technologique progresse, mais la dépendance économique s’accroît.
+**C'est exactement le dilemme des champions de l'IA aujourd'hui.** Des acteurs comme OpenAI ou Anthropic possèdent le génie logiciel, mais ils n'ont pas l'infrastructure physique. L'entraînement de leurs modèles coûte tellement cher qu'ils sont obligés de s'adosser aux géants du Cloud (Microsoft, Amazon, Google) pour survivre.
+
+Comme Plantin avec le Roi, ils ont troqué leur indépendance contre de la puissance de calcul. La technologie est révolutionnaire, mais économiquement, ils sont "tenus" par ceux qui possèdent les machines.
 
 
 
