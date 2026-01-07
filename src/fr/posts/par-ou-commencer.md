@@ -1,7 +1,7 @@
 ---
 title: Par où commencer ?
 date: 2026-01-05
-draft: false
+draft: true
 layout: layouts/post.njk
 tags: IA
 short: par-ou-commencer
