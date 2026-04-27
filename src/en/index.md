@@ -4,39 +4,52 @@ title: Home
 translationKey: homepage
 ---
 
-## **I build digital solutions with one guiding principle: to be useful, accessible, and sustainable**
 
-As an entrepreneur, partner and CTO, I lead meaningful digital projects and help organizations better understand ongoing transformations so they can take effective action.  
-My background spans 30 years in the tech industry, with roles ranging from developer and project manager to sales director, CIO, and executive committee member.
+## **I code, I build, I advise**
 
-Based in Grenoble, I work across France (and sometimes beyond).
+I have been a developer, project manager, sales director, CIO, and executive committee member. Thirty years in tech, with one consistent conviction: **digital must help, clarify, and make things easier — never the opposite.**
 
----
-
-## I’m CTO and partner at **Atipik Solutions**
-
-Most of my time is dedicated to **Watsy**, the platform developed by Atipik Solutions.  
-Watsy turns shop-floor data into **practical performance levers** for industrial players.  
-It’s a powerful tool designed for frontline teams, helping them make losses visible and drive improvement actions.
+Based in Grenoble.
 
 ---
 
-## Other projects
+## CTO and partner at **Atipik Solutions**
 
-- **BikeSlot** – a smart parking solution for urban mobility  
-- **Uxium** – a minimalist website platform I built for simplicity and autonomy
-
----
-
-## Occasional contributions
-
-- **Talks and presentations** – AI, digital transformation  
-- **Executive advisory** – strategic understanding, decision-making, tool selection
+Most of my time is dedicated to **Watsy**, our platform for industry. Watsy measures losses, makes them visible, and helps teams improve their production day by day.
 
 ---
 
-## Let’s talk?
+## My other projects
 
-You can contact me for any question, introduction, or service request:  
-📩 laurent&lt;at&gt;weli&lt;point&gt;bo  
+**Uxium** — a web platform I built to give freelancers and small businesses a professional online presence, **without depending on a technical provider**. A simple, predictable, self-managed alternative with built-in AI assistance.
+
+**BikeSlot** — a smart parking solution for urban mobility.
+
+---
+
+## I also advise executives
+
+I help **executives of mid-sized companies and SMEs**, with strong expertise in industry, clarify what **AI and digital** change for their business and decide what to do about it.
+
+**Format: a 5-day diagnostic**, delivered to the executive and their leadership team.
+
+- Day 1 — interviews with the executive and leadership team
+- Day 2 — fieldwork: IT teams, business units, observation of actual usage
+- Day 3-4 — analysis and writing
+- Day 5 — debrief and prioritized action plan
+
+**2 to 3 engagements per year**, alongside my own projects.
+
+---
+
+## And conferences
+
+I regularly give talks on AI and digital topics, for various audiences (executives, students, general public).
+
+---
+
+## Let's talk?
+
+For any question, introduction, or service request:
+📩 laurent&lt;at&gt;weli&lt;point&gt;bo
 🔗 [LinkedIn](https://www.linkedin.com/in/laurentmaumet/)

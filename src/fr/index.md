@@ -5,39 +5,51 @@ translationKey: homepage
 ---
 
 
-## **J’entreprends dans le numérique avec une exigence : être utile, accessible et durable**
+## **Je code, je construis, j'accompagne**
 
-Entrepreneur, associé et CTO, je porte des projets numériques qui ont du sens, et j’accompagne les organisations qui veulent comprendre les transformations en cours pour mieux agir.  
-Mon parcours s’appuie sur 30 ans d’expérience dans le numérique, où j’ai occupé des rôles variés : développeur, chef de projet, responsable commercial, DSI et membre de COMEX.
+J'ai été développeur, chef de projet, responsable commercial, DSI et membre de COMEX. Trente ans dans le numérique, et toujours la même conviction : **le numérique doit aider, clarifier et rendre les choses plus faciles — jamais l'inverse.**
 
-Je suis basé à Grenoble. J’interviens partout en France (et parfois au-delà).
-
----
-
-## Je suis CTO et associé d’**Atipik Solutions**
-
-Je consacre l’essentiel de mon temps à **Watsy**, la plateforme développée par Atipik Solutions.  
-Watsy transforme les données terrain en **leviers de performance concrets** pour les acteurs de l’industrie.  
-C’est un outil puissant au service des équipes de terrain, conçu pour rendre visibles les pertes et piloter les actions d’amélioration.
+Je suis basé à Grenoble.
 
 ---
 
-## Autres projets
+## Je suis CTO et associé d'**Atipik Solutions**
 
-- **BikeSlot** – solution de sécurisation pour la mobilité urbaine.  
-- **Uxium** – plateforme web minimaliste que j’ai créée, pensée pour l’autonomie et la simplicité.
-
----
-
-## J’interviens aussi ponctuellement
-
-- **Conférences et interventions** : IA, transformation numérique.  
-- **Accompagnement de dirigeants** : compréhension stratégique, arbitrages, choix d’outils.
+Je consacre l'essentiel de mon temps à **Watsy**, notre plateforme pour l'industrie. Watsy mesure les pertes, les rend visibles, et aide les équipes à améliorer leur production au quotidien.
 
 ---
 
-## Envie d’échanger ?
+## Mes autres projets
 
-Vous pouvez me contacter pour toute question, prise de contact ou demande de prestation  :  
-📩 laurent&lt;at&gt;weli&lt;point&gt;bo  
+**Uxium** — la plateforme web que j'ai créée pour permettre aux indépendants et aux PME de disposer d'une vitrine numérique professionnelle, **sans dépendre d'un prestataire technique**. Une alternative simple, prévisible et autonome avec un accompagnement IA intégré.
+
+**BikeSlot** — solution de sécurisation pour la mobilité urbaine.
+
+---
+
+## J'accompagne aussi les dirigeants
+
+J'aide les **dirigeants d'ETI et de PME**, avec une expertise marquée de l'industrie, à clarifier ce que **l'IA et le numérique** changent pour leur entreprise et à décider quoi faire.
+
+**Format : un diagnostic de 5 jours**, livré au dirigeant et à son équipe de direction.
+
+- J1 — entretiens avec le dirigeant et l'équipe de direction
+- J2 — terrain : équipes IT, métier, observation des usages
+- J3-J4 — analyse et rédaction
+- J5 — restitution et plan d'actions priorisé
+
+**2 à 3 missions par an**, en complément de mes projets.
+
+---
+
+## Et aussi des conférences
+
+Je donne régulièrement des conférences sur l'IA et le numérique, pour des publics variés (dirigeants, étudiants, grand public).
+
+---
+
+## Envie d'échanger ?
+
+Pour une question, un échange ou une demande d'accompagnement :
+📩 laurent&lt;at&gt;weli&lt;point&gt;bo
 🔗 [Mon profil LinkedIn](https://www.linkedin.com/in/laurentmaumet/)
