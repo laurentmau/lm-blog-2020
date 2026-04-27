@@ -31,13 +31,6 @@ Je consacre l'essentiel de mon temps à **Watsy**, notre plateforme pour l'indus
 
 J'aide les **dirigeants d'ETI et de PME**, avec une expertise marquée de l'industrie, à clarifier ce que **l'IA et le numérique** changent pour leur entreprise et à décider quoi faire.
 
-**Format : un diagnostic de 5 jours**, livré au dirigeant et à son équipe de direction.
-
-- J1 — entretiens avec le dirigeant et l'équipe de direction
-- J2 — terrain : équipes IT, métier, observation des usages
-- J3-J4 — analyse et rédaction
-- J5 — restitution et plan d'actions priorisé
-
 **2 à 3 missions par an**, en complément de mes projets.
 
 ---
@@ -51,5 +44,7 @@ Je donne régulièrement des conférences sur l'IA et le numérique, pour des pu
 ## Envie d'échanger ?
 
 Pour une question, un échange ou une demande d'accompagnement :
+
 📩 laurent&lt;at&gt;weli&lt;point&gt;bo
+
 🔗 [Mon profil LinkedIn](https://www.linkedin.com/in/laurentmaumet/)

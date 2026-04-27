@@ -31,13 +31,6 @@ Most of my time is dedicated to **Watsy**, our platform for industry. Watsy meas
 
 I help **executives of mid-sized companies and SMEs**, with strong expertise in industry, clarify what **AI and digital** change for their business and decide what to do about it.
 
-**Format: a 5-day diagnostic**, delivered to the executive and their leadership team.
-
-- Day 1 — interviews with the executive and leadership team
-- Day 2 — fieldwork: IT teams, business units, observation of actual usage
-- Day 3-4 — analysis and writing
-- Day 5 — debrief and prioritized action plan
-
 **2 to 3 engagements per year**, alongside my own projects.
 
 ---
@@ -51,5 +44,7 @@ I regularly give talks on AI and digital topics, for various audiences (executiv
 ## Let's talk?
 
 For any question, introduction, or service request:
+
 📩 laurent&lt;at&gt;weli&lt;point&gt;bo
+
 🔗 [LinkedIn](https://www.linkedin.com/in/laurentmaumet/)
