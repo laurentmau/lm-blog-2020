@@ -13,17 +13,17 @@ Je suis basé à Grenoble.
 
 ---
 
-## Je suis CTO et associé d'**Atipik Solutions**
+## Je suis CTO et associé d'**Atipik-solutions**
 
-Je consacre l'essentiel de mon temps à **Watsy**, notre plateforme pour l'industrie. Watsy mesure les pertes, les rend visibles, et aide les équipes à améliorer leur production au quotidien.
+Je consacre l'essentiel de mon temps à **Watsy®**, notre plateforme pour l'industrie. Watsy mesure les pertes, les rend visibles, et aide les équipes à améliorer leur production au quotidien.
 
 ---
 
 ## Mes autres projets
 
-**Uxium** — la plateforme web que j'ai créée pour permettre aux indépendants et aux PME de disposer d'une vitrine numérique professionnelle, **sans dépendre d'un prestataire technique**. Une alternative simple, prévisible et autonome avec un accompagnement IA intégré.
+**[Uxium](https://uxium.site/)** — la plateforme web que j'ai créée pour permettre aux indépendants et aux PME de disposer d'une vitrine numérique professionnelle, **sans dépendre d'un prestataire technique**. Une alternative simple, prévisible et autonome avec un accompagnement IA intégré.
 
-**BikeSlot** — solution de sécurisation pour la mobilité urbaine.
+**[BikeSlot](https://bikeslot.com)** — solution de sécurisation pour la mobilité urbaine.
 
 ---
 

@@ -13,17 +13,17 @@ Based in Grenoble.
 
 ---
 
-## CTO and partner at **Atipik Solutions**
+## CTO and partner at **Atipik-solutions**
 
-Most of my time is dedicated to **Watsy**, our platform for industry. Watsy measures losses, makes them visible, and helps teams improve their production day by day.
+Most of my time is dedicated to **Watsy®**, our platform for industry. Watsy measures losses, makes them visible, and helps teams improve their production day by day.
 
 ---
 
 ## My other projects
 
-**Uxium** — a web platform I built to give freelancers and small businesses a professional online presence, **without depending on a technical provider**. A simple, predictable, self-managed alternative with built-in AI assistance.
+**[Uxium](https://uxium.site/)** — a web platform I built to give freelancers and small businesses a professional online presence, **without depending on a technical provider**. A simple, predictable, self-managed alternative with built-in AI assistance.
 
-**BikeSlot** — a smart parking solution for urban mobility.
+**[BikeSlot](https://bikeslot.com)** — a smart parking solution for urban mobility.
 
 ---
 
