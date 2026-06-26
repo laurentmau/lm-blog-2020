@@ -1,6 +1,6 @@
 ---
 title: "Linus Torvalds a raison : l'IA est un compilateur de plus"
-date: 2026-06-26
+date: 2026-03-18
 draft: false
 layout: layouts/post.njk
 tags: IA
