@@ -15,7 +15,7 @@ Mis à jour le 10 juillet 2026, depuis La Tronche, près de Grenoble.
 
 **En parallèle, je fais mûrir MyOS.** Mon autre produit, une app de nutrition pour sportifs, que je développe avec un coach. Je m'en sers d'abord pour moi ; on l'ouvre peu à peu à d'autres utilisateurs.
 
-**Je me suis remis à écrire.** Après des années de silence sur ce blog, je le rallume. Des essais sur l'IA vue par quelqu'un qui la pratique plutôt que par quelqu'un qui la commente, et ces pages "à moi" que je reconstruis, comme [mon /uses](/fr/uses.html) et [mon /work](/fr/work.html). Écrire régulièrement est redevenu une habitude que je veux tenir.
+**Je me suis remis à écrire.** Après des années de silence sur ce blog, je le rallume. Des essais sur l'IA vue par quelqu'un qui la pratique, et ces pages "à moi" que je reconstruis, comme [mon /uses](/fr/uses.html) et [mon /work](/fr/work.html). Écrire régulièrement est redevenu une habitude que je veux tenir.
 
 **En arrière-plan, je peaufine ma façon de travailler avec l'IA :** un système où la session est jetable et le contexte reste. J'en ai fait un post, [mon setup IA](/fr/posts/mon-setup-ia/).
 

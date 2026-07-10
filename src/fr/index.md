@@ -16,7 +16,7 @@ Je suis basé à Grenoble.
 
 ## J'écris
 
-Des essais sur l'IA, vue par quelqu'un qui la pratique plutôt que par quelqu'un qui la commente. Les derniers :
+Des essais sur l'IA, vue par quelqu'un qui la pratique. Les derniers :
 
 <ul class="postlist">
 {%- for post in collections.posts_fr | head(-3) | reverse %}
