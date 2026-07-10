@@ -6,9 +6,9 @@ layout: layouts/post.njk
 tags: IA
 short: mon-setup-ia
 ---
-Mon setup IA : un mini-PC sous Ubuntu qui tourne en continu chez moi (elios), et une dizaine de chantiers en parallèle : finances, code client, produit, coaching, notes. Chaque chantier a sa session Claude Code dans un onglet de terminal, parfois pendant des jours. Une seule a mon attention à la fois ; les autres tournent en fond, des sessions de code surtout. Ce post décrit le câblage, brique par brique. Si vous travaillez avec Claude Code ou un agent équivalent, il y a peut-être des morceaux à prendre.
+Mon setup IA : un mini-PC sous Ubuntu qui tourne en continu chez moi (elios), et une dizaine de chantiers ouverts : finances, code client, produit, coaching, notes. Ce sont les chantiers qui durent, des semaines parfois ; chacun vit dans un fichier. Les sessions Claude Code, elles, sont jetables : j'en ouvre une sur le chantier du moment, elle se branche sur le fichier, je la ferme sans regret. Une seule a mon attention à la fois ; en fond, des agents autonomes codent ou analysent, je passe les voir aux checkpoints.
 
-Le principe qui organise tout : la session est jetable, le contexte ne l'est pas. Une conversation avec l'IA, je la ferme sans regret. Ce qui doit survivre (où j'en suis, ce qui a été décidé, la prochaine étape) vit dans des fichiers à moi, et chaque session vient s'y brancher.
+Tout le setup découle de ce principe : la session est jetable, le contexte ne l'est pas. Ce qui doit survivre (où j'en suis, ce qui a été décidé, la prochaine étape) vit dans des fichiers à moi, pas dans le fil de la conversation. Ce post décrit le câblage, brique par brique. Si vous travaillez avec Claude Code ou un agent équivalent, il y a peut-être des morceaux à prendre.
 
 ## Le contexte vit dans des fichiers
 
