@@ -18,8 +18,11 @@ Je suis basé à Grenoble.
 
 Des essais sur l'IA, vue par quelqu'un qui la pratique plutôt que par quelqu'un qui la commente. Les derniers :
 
-{% set postslist = collections.posts_fr | head(-3) %}
-{% include "partials/postslist.njk" %}
+<ul class="postlist">
+{%- for post in collections.posts_fr | head(-3) | reverse %}
+  <li><a href="{{ post.url }}">{{ post.data.title }}</a> <time class="postlist-date" datetime="{{ post.date | date('Y-MM-DD') }}">{{ post.date | date("DD MMMM Y", locale) }}</time></li>
+{%- endfor %}
+</ul>
 
 Tous les posts sont dans [l'archive](/fr/archive.html).
 
