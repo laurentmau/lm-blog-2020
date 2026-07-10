@@ -1,8 +1,19 @@
 module.exports = {
   fr: {
-    text: "Mon footer en Français"
+    links: [
+      { label: "Now", url: "/fr/now.html" },
+      { label: "Work", url: "/fr/work.html" },
+      { label: "Uses", url: "/fr/uses.html" },
+      { label: "Archive", url: "/fr/archive.html" },
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/laurentmaumet/" },
+      { label: "RSS", url: "/feed/feed.xml" }
+    ]
   },
   en: {
-    text: "My footer in English"
+    links: [
+      { label: "Archive", url: "/en/archive.html" },
+      { label: "LinkedIn", url: "https://www.linkedin.com/in/laurentmaumet/" },
+      { label: "RSS", url: "/feed/feed.xml" }
+    ]
   }
 };

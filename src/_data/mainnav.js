@@ -7,6 +7,10 @@ module.exports = {
     {
       label: "Archive",
       url: "/fr/archive.html"
+    },
+    {
+      label: "Now",
+      url: "/fr/now.html"
     }
   ],
   en: [

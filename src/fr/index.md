@@ -2,6 +2,7 @@
 layout: layouts/base.njk
 title: Accueil
 translationKey: homepage
+templateEngineOverride: njk,md
 ---
 
 
@@ -10,6 +11,17 @@ translationKey: homepage
 J'ai été développeur, chef de projet, responsable commercial, DSI et membre de COMEX. Trente ans dans le numérique, et toujours la même conviction : **le numérique doit aider, clarifier et rendre les choses plus faciles — jamais l'inverse.**
 
 Je suis basé à Grenoble.
+
+---
+
+## J'écris
+
+Des essais sur l'IA, vue par quelqu'un qui la pratique plutôt que par quelqu'un qui la commente. Les derniers :
+
+{% set postslist = collections.posts_fr | head(-3) %}
+{% include "partials/postslist.njk" %}
+
+Tous les posts sont dans [l'archive](/fr/archive.html).
 
 ---
 
@@ -38,6 +50,12 @@ J'aide les **dirigeants d'ETI et de PME**, avec une expertise marquée de l'indu
 ## Et aussi des conférences
 
 Je donne régulièrement des conférences sur l'IA et le numérique, pour des publics variés (dirigeants, étudiants, grand public).
+
+---
+
+## Pour mieux me connaître
+
+Ce que je fais [en ce moment](/fr/now.html) &middot; [comment je m'organise](/fr/work.html) &middot; [les outils que j'utilise](/fr/uses.html)
 
 ---
 

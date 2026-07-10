@@ -78,7 +78,20 @@
 
   </main>
 
-  <footer></footer>
+  <footer>
+    {% if footer[locale] %}
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <hr>
+            <p class="postlist-date">
+              {% for link in footer[locale].links %}<a href="{{ link.url }}">{{ link.label }}</a>{% if not loop.last %} &middot; {% endif %}{% endfor %}
+            </p>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  </footer>
 
   <!-- Current page: {{ page.url | url }} -->
   {% bundledJs %}
